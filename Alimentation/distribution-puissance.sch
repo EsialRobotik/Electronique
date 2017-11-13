@@ -7865,7 +7865,6 @@ Grid 5.00 mm&lt;p&gt;
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="GROS_CONDO" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E10-22.5"/>
-<part name="ARRET_URGENCE" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-02" device="05-7028"/>
 <part name="VOLTMETRE" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-02" device="05-7028"/>
 <part name="BORNIER1" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="19V"/>
 <part name="BORNIER2" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="19V"/>
@@ -7880,7 +7879,6 @@ Grid 5.00 mm&lt;p&gt;
 <part name="ALIM" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="19V"/>
 <part name="BATTERIE_GND6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="GROS_CONDO1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E10-22.5"/>
-<part name="ARRET_URGENCE1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-02" device="05-7028"/>
 <part name="VOLTMETRE1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-02" device="05-7028"/>
 <part name="BORNIER6" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="19V"/>
 <part name="BORNIER7" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="19V"/>
@@ -7894,6 +7892,8 @@ Grid 5.00 mm&lt;p&gt;
 <part name="BATTERIE_GND11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="ALIM1" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="19V"/>
 <part name="BATTERIE_GND12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="ARU1" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="19V"/>
+<part name="ARU2" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="19V"/>
 </parts>
 <sheets>
 <sheet>
@@ -7902,8 +7902,6 @@ Grid 5.00 mm&lt;p&gt;
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="GROS_CONDO" gate="G$1" x="35.56" y="88.9" rot="R180"/>
-<instance part="ARRET_URGENCE" gate="-1" x="53.34" y="78.74" rot="R270"/>
-<instance part="ARRET_URGENCE" gate="-2" x="48.26" y="78.74" rot="R270"/>
 <instance part="VOLTMETRE" gate="-1" x="48.26" y="101.6" rot="R90"/>
 <instance part="VOLTMETRE" gate="-2" x="53.34" y="101.6" rot="R90"/>
 <instance part="BORNIER1" gate="-1" x="78.74" y="71.12" rot="R180"/>
@@ -7925,8 +7923,6 @@ Grid 5.00 mm&lt;p&gt;
 <instance part="ALIM" gate="-2" x="20.32" y="96.52" rot="R180"/>
 <instance part="BATTERIE_GND6" gate="GND" x="10.16" y="96.52" rot="R270"/>
 <instance part="GROS_CONDO1" gate="G$1" x="139.7" y="91.44" rot="R180"/>
-<instance part="ARRET_URGENCE1" gate="-1" x="157.48" y="81.28" rot="R270"/>
-<instance part="ARRET_URGENCE1" gate="-2" x="152.4" y="81.28" rot="R270"/>
 <instance part="VOLTMETRE1" gate="-1" x="152.4" y="104.14" rot="R90"/>
 <instance part="VOLTMETRE1" gate="-2" x="157.48" y="104.14" rot="R90"/>
 <instance part="BORNIER6" gate="-1" x="182.88" y="73.66" rot="R180"/>
@@ -7947,6 +7943,10 @@ Grid 5.00 mm&lt;p&gt;
 <instance part="ALIM1" gate="-1" x="124.46" y="93.98" rot="R180"/>
 <instance part="ALIM1" gate="-2" x="124.46" y="99.06" rot="R180"/>
 <instance part="BATTERIE_GND12" gate="GND" x="114.3" y="99.06" rot="R270"/>
+<instance part="ARU1" gate="-1" x="45.72" y="73.66" rot="R90"/>
+<instance part="ARU1" gate="-2" x="50.8" y="73.66" rot="R90"/>
+<instance part="ARU2" gate="-1" x="149.86" y="76.2" rot="R90"/>
+<instance part="ARU2" gate="-2" x="154.94" y="76.2" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -8038,8 +8038,6 @@ Grid 5.00 mm&lt;p&gt;
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="ARRET_URGENCE" gate="-1" pin="S"/>
-<wire x1="53.34" y1="81.28" x2="60.96" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="81.28" x2="60.96" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="BORNIER1" gate="-1" pin="KL"/>
 <wire x1="60.96" y1="71.12" x2="73.66" y2="71.12" width="0.1524" layer="91"/>
@@ -8060,12 +8058,13 @@ Grid 5.00 mm&lt;p&gt;
 <pinref part="VOLTMETRE" gate="-2" pin="S"/>
 <wire x1="53.34" y1="99.06" x2="53.34" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="91.44" x2="60.96" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="ARU1" gate="-2" pin="KL"/>
+<wire x1="50.8" y1="78.74" x2="50.8" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="81.28" x2="60.96" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="ARRET_URGENCE1" gate="-1" pin="S"/>
-<wire x1="157.48" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="83.82" x2="165.1" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="BORNIER6" gate="-1" pin="KL"/>
 <wire x1="165.1" y1="73.66" x2="177.8" y2="73.66" width="0.1524" layer="91"/>
@@ -8086,6 +8085,9 @@ Grid 5.00 mm&lt;p&gt;
 <pinref part="VOLTMETRE1" gate="-2" pin="S"/>
 <wire x1="157.48" y1="101.6" x2="157.48" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="93.98" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="ARU2" gate="-2" pin="KL"/>
+<wire x1="154.94" y1="81.28" x2="154.94" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -8093,12 +8095,13 @@ Grid 5.00 mm&lt;p&gt;
 <pinref part="ALIM" gate="-1" pin="KL"/>
 <pinref part="GROS_CONDO" gate="G$1" pin="+"/>
 <wire x1="35.56" y1="86.36" x2="35.56" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="ARRET_URGENCE" gate="-2" pin="S"/>
-<wire x1="48.26" y1="81.28" x2="35.56" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="81.28" x2="35.56" y2="78.74" width="0.1524" layer="91"/>
-<junction x="35.56" y="81.28"/>
 <wire x1="35.56" y1="78.74" x2="15.24" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="78.74" x2="15.24" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="ARU1" gate="-1" pin="KL"/>
+<wire x1="45.72" y1="78.74" x2="45.72" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="81.28" x2="35.56" y2="81.28" width="0.1524" layer="91"/>
+<junction x="35.56" y="81.28"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -8106,12 +8109,13 @@ Grid 5.00 mm&lt;p&gt;
 <pinref part="ALIM1" gate="-1" pin="KL"/>
 <pinref part="GROS_CONDO1" gate="G$1" pin="+"/>
 <wire x1="139.7" y1="88.9" x2="139.7" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="ARRET_URGENCE1" gate="-2" pin="S"/>
-<wire x1="152.4" y1="83.82" x2="139.7" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="83.82" x2="139.7" y2="81.28" width="0.1524" layer="91"/>
-<junction x="139.7" y="83.82"/>
 <wire x1="139.7" y1="81.28" x2="119.38" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="81.28" x2="119.38" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="ARU2" gate="-1" pin="KL"/>
+<wire x1="149.86" y1="81.28" x2="149.86" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="83.82" x2="139.7" y2="83.82" width="0.1524" layer="91"/>
+<junction x="139.7" y="83.82"/>
 </segment>
 </net>
 </nets>

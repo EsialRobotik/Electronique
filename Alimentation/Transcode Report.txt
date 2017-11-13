@@ -1,0 +1,41 @@
+
+
+   ---- Transcoding 'C:\Users\franc\Desktop\EsialRobotik\Electronique\Alimentation\distribution-puissance.GBS' ----   Mon Nov 13 23:30:49 2017
+
+D10   --> D100
+D11   --> D101
+D12   --> D102
+D13   --> D103
+D14   --> D104
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\franc\Desktop\EsialRobotik\Electronique\Alimentation\distribution-puissance.GTL' ----   Mon Nov 13 23:30:49 2017
+
+D10   --> D105
+D11   --> D106
+D12   --> D107
+D13   --> D108
+D14   --> D109
+D15   --> D110
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\franc\Desktop\EsialRobotik\Electronique\Alimentation\distribution-puissance.GTO' ----   Mon Nov 13 23:30:49 2017
+
+D10   --> D111
+D11   --> D112
+D12   --> D113
+D13   --> D114
+D14   --> D115
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\franc\Desktop\EsialRobotik\Electronique\Alimentation\distribution-puissance.GTS' ----   Mon Nov 13 23:30:49 2017
+
+D10   --> D116
+D11   --> D117
+D12   --> D118
+D13   --> D119
+D14   --> D120
+-----------------------------------------------------------------
