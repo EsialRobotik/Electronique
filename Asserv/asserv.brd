@@ -64,14 +64,19 @@
 <wire x1="44.12" y1="0" x2="44.12" y2="57.14" width="0" layer="20"/>
 <wire x1="44.12" y1="57.14" x2="0" y2="57.14" width="0" layer="20"/>
 <wire x1="0" y1="57.14" x2="0" y2="0" width="0" layer="20"/>
-<hole x="39.37" y="53.34" drill="3"/>
-<hole x="3.81" y="53.34" drill="3"/>
+<hole x="39.37" y="54.61" drill="3"/>
+<hole x="3.81" y="54.61" drill="3"/>
 <hole x="3.81" y="2.54" drill="3"/>
 <hole x="39.37" y="2.54" drill="3"/>
 <text x="15.24" y="53.34" size="1.778" layer="1">MBED - USB</text>
-<text x="1.27" y="35.56" size="1.778" layer="1">I2C</text>
-<text x="1.27" y="20.32" size="1.778" layer="1">Cod2</text>
-<text x="36.83" y="20.32" size="1.778" layer="1">Cod1</text>
+<text x="2.54" y="24.13" size="1.016" layer="1">I2C</text>
+<text x="1.27" y="8.89" size="1.016" layer="1">Codeur2</text>
+<text x="35.56" y="1.27" size="1.016" layer="1" rot="R90">Codeur1</text>
+<text x="8.89" y="31.75" size="0.6096" layer="1" rot="R90">SDA</text>
+<text x="8.89" y="27.94" size="0.6096" layer="1" rot="R90">SCL</text>
+<text x="35.56" y="21.59" size="0.6096" layer="1" rot="R90">SDA</text>
+<text x="35.56" y="17.78" size="0.6096" layer="1" rot="R90">SCL</text>
+<text x="34.29" y="26.67" size="1.016" layer="1">I2C</text>
 </plain>
 <libraries>
 <library name="con-molex" urn="urn:adsk.eagle:library:165">
@@ -660,19 +665,19 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="BATTERIE" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" value="22-23-2021" x="39.37" y="26.67" rot="R270">
-<attribute name="MF" value="MOLEX" x="39.37" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="22-23-2021" x="39.37" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="1462926" x="39.37" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="25C3832" x="39.37" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="BATTERIE" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" value="22-23-2021" x="39.37" y="30.48" rot="R270">
+<attribute name="MF" value="MOLEX" x="39.37" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="22-23-2021" x="39.37" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="1462926" x="39.37" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="25C3832" x="39.37" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" package="C5B2.5" value="0.33uF" x="39.37" y="31.75"/>
-<element name="C2" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" package="C5B2.5" value="0.1uF" x="39.37" y="46.99"/>
-<element name="CODEUR1" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2041" value="22-23-2041" x="39.37" y="15.24" rot="R270">
-<attribute name="MF" value="MOLEX" x="39.37" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="22-23-2041" x="39.37" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="1462920" x="39.37" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="38C0355" x="39.37" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" package="C5B2.5" value="0.33uF" x="39.37" y="35.56"/>
+<element name="C2" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" package="C5B2.5" value="0.1uF" x="39.37" y="50.8"/>
+<element name="CODEUR1" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2041" value="22-23-2041" x="39.37" y="10.16" rot="R270">
+<attribute name="MF" value="MOLEX" x="39.37" y="10.16" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="22-23-2041" x="39.37" y="10.16" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="1462920" x="39.37" y="10.16" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="38C0355" x="39.37" y="10.16" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="CODEUR2" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2041" value="22-23-2041" x="3.81" y="15.24" rot="R90">
 <attribute name="MF" value="MOLEX" x="3.81" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
@@ -686,9 +691,15 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="1462920" x="3.81" y="30.48" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="38C0355" x="3.81" y="30.48" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" package="TO220V" value="7805TV" x="35.56" y="39.37" rot="R90"/>
+<element name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" package="TO220V" value="7805TV" x="35.56" y="43.18" rot="R90"/>
 <element name="KIT1" library="MBED_v2.1" package="MBED-KIT" value="MBED_NXP_LPC1768" x="21.59" y="27.94">
 <attribute name="ARM" value="" x="21.59" y="27.94" size="1.778" layer="27" display="off"/>
+</element>
+<element name="I2C1" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2041" value="22-23-2041" x="39.37" y="21.59" rot="R90">
+<attribute name="MF" value="MOLEX" x="39.37" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="22-23-2041" x="39.37" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="1462920" x="39.37" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="38C0355" x="39.37" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 </elements>
 <signals>
@@ -711,11 +722,11 @@ design rules under a new name.</description>
 <contactref element="BATTERIE" pad="2"/>
 <contactref element="C1" pad="1"/>
 <contactref element="IC1" pad="1"/>
-<wire x1="39.37" y1="25.4" x2="36.83" y2="25.4" width="0.8128" layer="16"/>
-<wire x1="36.83" y1="25.4" x2="36.83" y2="31.75" width="0.8128" layer="16"/>
-<wire x1="36.83" y1="31.75" x2="36.83" y2="33.02" width="0.8128" layer="16"/>
-<wire x1="36.83" y1="33.02" x2="38.1" y2="34.29" width="0.8128" layer="16"/>
-<wire x1="38.1" y1="34.29" x2="38.1" y2="36.83" width="0.8128" layer="16"/>
+<wire x1="39.37" y1="29.21" x2="36.83" y2="29.21" width="0.8128" layer="16"/>
+<wire x1="36.83" y1="29.21" x2="36.83" y2="35.56" width="0.8128" layer="16"/>
+<wire x1="36.83" y1="35.56" x2="36.83" y2="36.83" width="0.8128" layer="16"/>
+<wire x1="36.83" y1="36.83" x2="38.1" y2="38.1" width="0.8128" layer="16"/>
+<wire x1="38.1" y1="38.1" x2="38.1" y2="40.64" width="0.8128" layer="16"/>
 </signal>
 <signal name="GND">
 <contactref element="C1" pad="2"/>
@@ -732,6 +743,7 @@ design rules under a new name.</description>
 <vertex x="43.18" y="55.88"/>
 <vertex x="43.18" y="0"/>
 </polygon>
+<contactref element="I2C1" pad="4"/>
 </signal>
 <signal name="VCC">
 <contactref element="IC1" pad="3"/>
@@ -739,23 +751,21 @@ design rules under a new name.</description>
 <contactref element="I2C" pad="1"/>
 <contactref element="CODEUR2" pad="1"/>
 <contactref element="CODEUR1" pad="1"/>
-<wire x1="36.83" y1="45.72" x2="36.83" y2="46.99" width="0.8128" layer="16"/>
-<wire x1="36.83" y1="45.72" x2="38.1" y2="44.45" width="0.8128" layer="16"/>
-<wire x1="38.1" y1="44.45" x2="38.1" y2="41.91" width="0.8128" layer="16"/>
 <wire x1="3.81" y1="11.43" x2="2.54" y2="11.43" width="0.8128" layer="16"/>
 <wire x1="2.54" y1="11.43" x2="1.4224" y2="12.5476" width="0.8128" layer="16"/>
+<wire x1="1.4224" y1="25.5524" x2="1.4224" y2="22.86" width="0.8128" layer="16"/>
 <wire x1="1.4224" y1="22.86" x2="1.4224" y2="12.5476" width="0.8128" layer="16"/>
-<wire x1="1.4224" y1="22.86" x2="1.4224" y2="25.5524" width="0.8128" layer="16"/>
 <wire x1="1.4224" y1="25.5524" x2="2.54" y2="26.67" width="0.8128" layer="16"/>
 <wire x1="2.54" y1="26.67" x2="3.81" y2="26.67" width="0.8128" layer="16"/>
-<wire x1="39.37" y1="19.05" x2="38.1" y2="19.05" width="0.8128" layer="16"/>
-<wire x1="38.1" y1="19.05" x2="35.56" y2="21.59" width="0.8128" layer="16"/>
-<wire x1="35.56" y1="21.59" x2="35.56" y2="22.86" width="0.8128" layer="16"/>
-<wire x1="35.56" y1="22.86" x2="35.56" y2="31.098225" width="0.8128" layer="16"/>
-<wire x1="35.56" y1="31.098225" x2="35.4711" y2="31.187125" width="0.8128" layer="16"/>
-<wire x1="35.4711" y1="31.187125" x2="35.4711" y2="44.3611" width="0.8128" layer="16"/>
-<wire x1="35.4711" y1="44.3611" x2="36.83" y2="45.72" width="0.8128" layer="16"/>
-<wire x1="35.56" y1="22.86" x2="1.4224" y2="22.86" width="0.508" layer="16"/>
+<contactref element="I2C1" pad="1"/>
+<wire x1="39.37" y1="13.97" x2="39.37" y2="17.78" width="0.508" layer="16"/>
+<wire x1="36.83" y1="50.8" x2="38.1" y2="49.53" width="0.508" layer="16"/>
+<wire x1="38.1" y1="49.53" x2="38.1" y2="45.72" width="0.508" layer="16"/>
+<wire x1="39.37" y1="17.78" x2="21.59" y2="17.78" width="0.508" layer="16"/>
+<wire x1="21.59" y1="17.78" x2="21.59" y2="22.86" width="0.508" layer="16"/>
+<wire x1="21.59" y1="22.86" x2="1.4224" y2="22.86" width="0.508" layer="16"/>
+<wire x1="21.59" y1="22.86" x2="21.59" y2="50.8" width="0.508" layer="16"/>
+<wire x1="21.59" y1="50.8" x2="36.83" y2="50.8" width="0.508" layer="16"/>
 </signal>
 <signal name="N$5">
 <contactref element="KIT1" pad="P$15"/>
@@ -780,12 +790,28 @@ design rules under a new name.</description>
 <signal name="N$9">
 <contactref element="KIT1" pad="P$25"/>
 <contactref element="CODEUR1" pad="3"/>
-<wire x1="39.37" y1="13.97" x2="33.02" y2="13.97" width="0.8128" layer="16"/>
+<wire x1="39.37" y1="8.89" x2="38.1" y2="8.89" width="0.508" layer="16"/>
+<wire x1="38.1" y1="8.89" x2="33.02" y2="13.97" width="0.508" layer="16"/>
 </signal>
 <signal name="N$10">
 <contactref element="KIT1" pad="P$26"/>
 <contactref element="CODEUR1" pad="2"/>
-<wire x1="39.37" y1="16.51" x2="33.02" y2="16.51" width="0.8128" layer="16"/>
+<wire x1="39.37" y1="11.43" x2="38.1" y2="11.43" width="0.508" layer="16"/>
+<wire x1="38.1" y1="11.43" x2="33.02" y2="16.51" width="0.508" layer="16"/>
+</signal>
+<signal name="N$2">
+<contactref element="I2C1" pad="2"/>
+<contactref element="KIT1" pad="P$27"/>
+<wire x1="39.37" y1="20.32" x2="36.83" y2="20.32" width="0.508" layer="16"/>
+<wire x1="36.83" y1="20.32" x2="35.56" y2="19.05" width="0.508" layer="16"/>
+<wire x1="35.56" y1="19.05" x2="33.02" y2="19.05" width="0.508" layer="16"/>
+</signal>
+<signal name="N$3">
+<contactref element="I2C1" pad="3"/>
+<contactref element="KIT1" pad="P$28"/>
+<wire x1="39.37" y1="22.86" x2="36.83" y2="22.86" width="0.508" layer="16"/>
+<wire x1="36.83" y1="22.86" x2="35.56" y2="21.59" width="0.508" layer="16"/>
+<wire x1="35.56" y1="21.59" x2="33.02" y2="21.59" width="0.508" layer="16"/>
 </signal>
 </signals>
 </board>

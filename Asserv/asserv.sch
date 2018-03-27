@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.1">
+<eagle version="8.6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -7815,6 +7816,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="I2C1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2041" device=""/>
+<part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7849,6 +7853,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="P+3" gate="VCC" x="124.46" y="142.24" rot="R180"/>
 <instance part="P+4" gate="VCC" x="259.08" y="134.62" rot="R180"/>
 <instance part="SUPPLY5" gate="GND" x="147.32" y="165.1" rot="R180"/>
+<instance part="I2C1" gate="-1" x="248.92" y="182.88" rot="R90"/>
+<instance part="I2C1" gate="-2" x="251.46" y="182.88" rot="R90"/>
+<instance part="I2C1" gate="-3" x="254" y="182.88" rot="R90"/>
+<instance part="I2C1" gate="-4" x="256.54" y="182.88" rot="R90"/>
+<instance part="SUPPLY6" gate="GND" x="256.54" y="175.26"/>
+<instance part="P+5" gate="VCC" x="248.92" y="175.26" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -7900,6 +7910,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="149.86" y1="160.02" x2="147.32" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="160.02" x2="147.32" y2="162.56" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SUPPLY6" gate="GND" pin="GND"/>
+<pinref part="I2C1" gate="-4" pin="S"/>
+<wire x1="256.54" y1="177.8" x2="256.54" y2="180.34" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -7924,6 +7939,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="CODEUR1" gate="-1" pin="S"/>
 <pinref part="P+4" gate="VCC" pin="VCC"/>
 <wire x1="259.08" y1="139.7" x2="259.08" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+5" gate="VCC" pin="VCC"/>
+<pinref part="I2C1" gate="-1" pin="S"/>
+<wire x1="248.92" y1="177.8" x2="248.92" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -7974,6 +7994,22 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="261.62" y1="124.46" x2="261.62" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="I2C1" gate="-2" pin="S"/>
+<wire x1="251.46" y1="180.34" x2="251.46" y2="127" width="0.1524" layer="91"/>
+<pinref part="KIT1" gate="KIT" pin="P27"/>
+<wire x1="251.46" y1="127" x2="246.38" y2="127" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="I2C1" gate="-3" pin="S"/>
+<pinref part="KIT1" gate="KIT" pin="P28"/>
+<wire x1="254" y1="180.34" x2="254" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="254" y1="129.54" x2="246.38" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -7981,7 +8017,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </drawing>
 <compatibility>
 <note version="8.2" severity="warning">
-Since Version 8.2, Eagle supports online libraries. The ids
+Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
 </note>
