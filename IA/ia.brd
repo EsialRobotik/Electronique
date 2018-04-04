@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.1">
+<eagle version="8.6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1718,6 +1718,7 @@ design rules under a new name.</description>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
 <param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -2007,34 +2008,40 @@ design rules under a new name.</description>
 <contactref element="R3" pad="1"/>
 <contactref element="R4" pad="1"/>
 <contactref element="R2" pad="1"/>
-<wire x1="76.2" y1="39.37" x2="76.2" y2="43.18" width="0" layer="19" extent="1-1"/>
-<wire x1="80.01" y1="31.75" x2="76.2" y2="39.37" width="0" layer="19" extent="1-1"/>
-<wire x1="83.82" y1="31.75" x2="80.01" y2="31.75" width="0" layer="19" extent="1-1"/>
-<wire x1="72.39" y1="17.78" x2="80.01" y2="31.75" width="0" layer="19" extent="1-1"/>
+<wire x1="76.2" y1="43.18" x2="76.2" y2="39.37" width="0.508" layer="16"/>
+<wire x1="83.82" y1="31.75" x2="80.01" y2="31.75" width="0.508" layer="16"/>
+<wire x1="76.2" y1="39.37" x2="78.74" y2="39.37" width="0.508" layer="16"/>
+<wire x1="78.74" y1="39.37" x2="80.01" y2="38.1" width="0.508" layer="16"/>
+<wire x1="80.01" y1="38.1" x2="80.01" y2="31.75" width="0.508" layer="16"/>
+<wire x1="72.39" y1="17.78" x2="72.39" y2="19.05" width="0.508" layer="16"/>
+<wire x1="80.01" y1="26.67" x2="80.01" y2="31.75" width="0.508" layer="16"/>
+<wire x1="72.39" y1="19.05" x2="80.01" y2="26.67" width="0.508" layer="16"/>
 </signal>
 <signal name="GPIO05">
 <contactref element="SV1" pad="18"/>
-<wire x1="80.01" y1="54.61" x2="77.47" y2="57.15" width="0.508" layer="16"/>
+<wire x1="77.47" y1="57.15" x2="80.01" y2="54.61" width="0.508" layer="16"/>
 <via x="27.94" y="55.88" extent="1-16" drill="1"/>
 <wire x1="77.47" y1="57.15" x2="29.21" y2="57.15" width="0.508" layer="16"/>
 <wire x1="29.21" y1="57.15" x2="27.94" y2="55.88" width="0.508" layer="16"/>
 <wire x1="27.94" y1="52.07" x2="27.94" y2="55.88" width="0.508" layer="1"/>
 <contactref element="COULEUR" pad="1"/>
 <contactref element="R1" pad="2"/>
-<wire x1="80.01" y1="54.61" x2="80.01" y2="52.07" width="0" layer="19" extent="16-16"/>
-<wire x1="80.01" y1="46.99" x2="80.01" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="80.01" y1="54.61" x2="80.01" y2="52.07" width="0.508" layer="16"/>
+<wire x1="80.01" y1="52.07" x2="80.01" y2="46.99" width="0.508" layer="16"/>
 </signal>
 <signal name="GPIO04">
 <contactref element="SV1" pad="16"/>
-<wire x1="86.36" y1="54.61" x2="82.55" y2="58.42" width="0.508" layer="16"/>
+<wire x1="82.55" y1="58.42" x2="86.36" y2="54.61" width="0.508" layer="16"/>
 <via x="25.4" y="55.88" extent="1-16" drill="1"/>
 <wire x1="82.55" y1="58.42" x2="27.94" y2="58.42" width="0.508" layer="16"/>
 <wire x1="27.94" y1="58.42" x2="25.4" y2="55.88" width="0.508" layer="16"/>
 <wire x1="25.4" y1="52.07" x2="25.4" y2="55.88" width="0.508" layer="1"/>
 <contactref element="R2" pad="2"/>
 <contactref element="TIRETTE" pad="1"/>
-<wire x1="86.36" y1="54.61" x2="86.36" y2="52.07" width="0" layer="19" extent="16-16"/>
-<wire x1="83.82" y1="46.99" x2="86.36" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="86.36" y1="54.61" x2="86.36" y2="52.07" width="0.508" layer="16"/>
+<wire x1="86.36" y1="48.26" x2="85.09" y2="46.99" width="0.508" layer="16"/>
+<wire x1="85.09" y1="46.99" x2="83.82" y2="46.99" width="0.508" layer="16"/>
+<wire x1="86.36" y1="52.07" x2="86.36" y2="48.26" width="0.508" layer="16"/>
 </signal>
 <signal name="GPIO06">
 <contactref element="SV1" pad="22"/>
@@ -2044,19 +2051,23 @@ design rules under a new name.</description>
 <wire x1="71.12" y1="55.88" x2="33.02" y2="55.88" width="0.508" layer="16"/>
 <contactref element="TRUC1" pad="1"/>
 <contactref element="R3" pad="2"/>
+<wire x1="73.66" y1="52.07" x2="73.66" y2="49.53" width="0.508" layer="16"/>
+<wire x1="73.66" y1="49.53" x2="63.5" y2="39.37" width="0.508" layer="16"/>
+<wire x1="63.5" y1="39.37" x2="60.96" y2="39.37" width="0.508" layer="16"/>
 <wire x1="73.66" y1="53.34" x2="73.66" y2="52.07" width="0" layer="19" extent="16-16"/>
-<wire x1="60.96" y1="39.37" x2="73.66" y2="52.07" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO27">
 <contactref element="SV1" pad="36"/>
 <via x="50.8" y="54.61" extent="1-16" drill="1"/>
-<wire x1="66.04" y1="54.61" x2="67.31" y2="53.34" width="0.508" layer="16"/>
+<wire x1="67.31" y1="53.34" x2="66.04" y2="54.61" width="0.508" layer="16"/>
 <wire x1="50.8" y1="52.07" x2="50.8" y2="54.61" width="0.508" layer="1"/>
 <wire x1="50.8" y1="54.61" x2="66.04" y2="54.61" width="0.508" layer="16"/>
 <contactref element="TRUC2" pad="1"/>
 <contactref element="R4" pad="2"/>
-<wire x1="67.31" y1="53.34" x2="67.31" y2="52.07" width="0" layer="19" extent="16-16"/>
-<wire x1="60.96" y1="43.18" x2="67.31" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="67.31" y1="52.07" x2="67.31" y2="53.34" width="0.508" layer="16"/>
+<wire x1="67.31" y1="52.07" x2="67.31" y2="50.8" width="0.508" layer="16"/>
+<wire x1="67.31" y1="50.8" x2="60.96" y2="44.45" width="0.508" layer="16"/>
+<wire x1="60.96" y1="44.45" x2="60.96" y2="43.18" width="0.508" layer="16"/>
 </signal>
 <signal name="N$1">
 <contactref element="B1" pad="HV2"/>
