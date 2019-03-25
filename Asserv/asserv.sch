@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.3">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7819,46 +7819,136 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="I2C1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2041" device=""/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="RESET" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
+<part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="KIT1" gate="KIT" x="198.12" y="137.16"/>
-<instance part="IC1" gate="A1" x="60.96" y="233.68"/>
-<instance part="BATTERIE" gate="-1" x="35.56" y="231.14" rot="R180"/>
-<instance part="BATTERIE" gate="-2" x="35.56" y="233.68" rot="R180"/>
-<instance part="C1" gate="G$1" x="43.18" y="231.14"/>
-<instance part="C2" gate="G$1" x="78.74" y="231.14"/>
-<instance part="SUPPLY1" gate="GND" x="60.96" y="213.36"/>
-<instance part="P+1" gate="VCC" x="91.44" y="233.68" rot="R270"/>
-<instance part="I2C" gate="-1" x="124.46" y="149.86" rot="R90"/>
-<instance part="I2C" gate="-2" x="127" y="149.86" rot="R90"/>
-<instance part="I2C" gate="-3" x="129.54" y="149.86" rot="R90"/>
-<instance part="I2C" gate="-4" x="132.08" y="149.86" rot="R90"/>
-<instance part="CODEUR1" gate="-1" x="259.08" y="142.24" rot="R90"/>
-<instance part="CODEUR1" gate="-2" x="261.62" y="142.24" rot="R90"/>
-<instance part="CODEUR1" gate="-3" x="264.16" y="142.24" rot="R90"/>
-<instance part="CODEUR1" gate="-4" x="266.7" y="142.24" rot="R90"/>
-<instance part="CODEUR2" gate="-1" x="104.14" y="149.86" rot="R90"/>
-<instance part="CODEUR2" gate="-2" x="106.68" y="149.86" rot="R90"/>
-<instance part="CODEUR2" gate="-3" x="109.22" y="149.86" rot="R90"/>
-<instance part="CODEUR2" gate="-4" x="111.76" y="149.86" rot="R90"/>
-<instance part="SUPPLY2" gate="GND" x="132.08" y="142.24"/>
-<instance part="SUPPLY3" gate="GND" x="111.76" y="142.24"/>
-<instance part="SUPPLY4" gate="GND" x="266.7" y="134.62"/>
-<instance part="P+2" gate="VCC" x="104.14" y="142.24" rot="R180"/>
-<instance part="P+3" gate="VCC" x="124.46" y="142.24" rot="R180"/>
-<instance part="P+4" gate="VCC" x="259.08" y="134.62" rot="R180"/>
-<instance part="SUPPLY5" gate="GND" x="147.32" y="165.1" rot="R180"/>
-<instance part="I2C1" gate="-1" x="248.92" y="182.88" rot="R90"/>
-<instance part="I2C1" gate="-2" x="251.46" y="182.88" rot="R90"/>
-<instance part="I2C1" gate="-3" x="254" y="182.88" rot="R90"/>
-<instance part="I2C1" gate="-4" x="256.54" y="182.88" rot="R90"/>
-<instance part="SUPPLY6" gate="GND" x="256.54" y="175.26"/>
-<instance part="P+5" gate="VCC" x="248.92" y="175.26" rot="R180"/>
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="DRAWING_NAME" x="344.17" y="15.24" size="2.54" layer="94"/>
+<attribute name="LAST_DATE_TIME" x="344.17" y="10.16" size="2.286" layer="94"/>
+<attribute name="SHEET" x="357.505" y="5.08" size="2.54" layer="94"/>
+</instance>
+<instance part="KIT1" gate="KIT" x="198.12" y="137.16" smashed="yes">
+<attribute name="NAME" x="152.4" y="163.195" size="1.778" layer="95"/>
+</instance>
+<instance part="IC1" gate="A1" x="60.96" y="233.68" smashed="yes">
+<attribute name="NAME" x="53.34" y="239.395" size="1.778" layer="95"/>
+<attribute name="VALUE" x="53.34" y="236.855" size="1.778" layer="96"/>
+</instance>
+<instance part="BATTERIE" gate="-1" x="35.56" y="231.14" smashed="yes" rot="R180">
+<attribute name="NAME" x="33.02" y="231.902" size="1.524" layer="95" rot="R180"/>
+<attribute name="VALUE" x="36.322" y="229.743" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="BATTERIE" gate="-2" x="35.56" y="233.68" smashed="yes" rot="R180">
+<attribute name="NAME" x="33.02" y="234.442" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="C1" gate="G$1" x="43.18" y="231.14" smashed="yes">
+<attribute name="NAME" x="44.704" y="231.521" size="1.778" layer="95"/>
+<attribute name="VALUE" x="44.704" y="226.441" size="1.778" layer="96"/>
+</instance>
+<instance part="C2" gate="G$1" x="78.74" y="231.14" smashed="yes">
+<attribute name="NAME" x="80.264" y="231.521" size="1.778" layer="95"/>
+<attribute name="VALUE" x="80.264" y="226.441" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY1" gate="GND" x="60.96" y="213.36" smashed="yes">
+<attribute name="VALUE" x="59.055" y="210.185" size="1.778" layer="96"/>
+</instance>
+<instance part="P+1" gate="VCC" x="91.44" y="233.68" smashed="yes" rot="R270">
+<attribute name="VALUE" x="88.9" y="236.22" size="1.778" layer="96"/>
+</instance>
+<instance part="I2C" gate="-1" x="124.46" y="149.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="125.222" y="152.4" size="1.524" layer="95" rot="R90"/>
+<attribute name="VALUE" x="123.063" y="149.098" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="I2C" gate="-2" x="127" y="149.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="127.762" y="152.4" size="1.524" layer="95" rot="R90"/>
+</instance>
+<instance part="I2C" gate="-3" x="129.54" y="149.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="130.302" y="152.4" size="1.524" layer="95" rot="R90"/>
+</instance>
+<instance part="I2C" gate="-4" x="132.08" y="149.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="132.842" y="152.4" size="1.524" layer="95" rot="R90"/>
+</instance>
+<instance part="CODEUR1" gate="-1" x="259.08" y="142.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="259.842" y="144.78" size="1.524" layer="95" rot="R90"/>
+<attribute name="VALUE" x="257.683" y="141.478" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="CODEUR1" gate="-2" x="261.62" y="142.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="262.382" y="144.78" size="1.524" layer="95" rot="R90"/>
+</instance>
+<instance part="CODEUR1" gate="-3" x="264.16" y="142.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="264.922" y="144.78" size="1.524" layer="95" rot="R90"/>
+</instance>
+<instance part="CODEUR1" gate="-4" x="266.7" y="142.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="267.462" y="144.78" size="1.524" layer="95" rot="R90"/>
+</instance>
+<instance part="CODEUR2" gate="-1" x="104.14" y="149.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="104.902" y="152.4" size="1.524" layer="95" rot="R90"/>
+<attribute name="VALUE" x="102.743" y="149.098" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="CODEUR2" gate="-2" x="106.68" y="149.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="107.442" y="152.4" size="1.524" layer="95" rot="R90"/>
+</instance>
+<instance part="CODEUR2" gate="-3" x="109.22" y="149.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="109.982" y="152.4" size="1.524" layer="95" rot="R90"/>
+</instance>
+<instance part="CODEUR2" gate="-4" x="111.76" y="149.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="112.522" y="152.4" size="1.524" layer="95" rot="R90"/>
+</instance>
+<instance part="SUPPLY2" gate="GND" x="132.08" y="142.24" smashed="yes">
+<attribute name="VALUE" x="130.175" y="139.065" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY3" gate="GND" x="111.76" y="142.24" smashed="yes">
+<attribute name="VALUE" x="109.855" y="139.065" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY4" gate="GND" x="266.7" y="134.62" smashed="yes">
+<attribute name="VALUE" x="264.795" y="131.445" size="1.778" layer="96"/>
+</instance>
+<instance part="P+2" gate="VCC" x="104.14" y="142.24" smashed="yes" rot="R180">
+<attribute name="VALUE" x="106.68" y="144.78" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="P+3" gate="VCC" x="124.46" y="142.24" smashed="yes" rot="R180">
+<attribute name="VALUE" x="127" y="144.78" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="P+4" gate="VCC" x="259.08" y="134.62" smashed="yes" rot="R180">
+<attribute name="VALUE" x="261.62" y="137.16" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY5" gate="GND" x="147.32" y="165.1" smashed="yes" rot="R180">
+<attribute name="VALUE" x="149.225" y="168.275" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="I2C1" gate="-1" x="248.92" y="182.88" smashed="yes" rot="R90">
+<attribute name="NAME" x="249.682" y="185.42" size="1.524" layer="95" rot="R90"/>
+<attribute name="VALUE" x="247.523" y="182.118" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="I2C1" gate="-2" x="251.46" y="182.88" smashed="yes" rot="R90">
+<attribute name="NAME" x="252.222" y="185.42" size="1.524" layer="95" rot="R90"/>
+</instance>
+<instance part="I2C1" gate="-3" x="254" y="182.88" smashed="yes" rot="R90">
+<attribute name="NAME" x="254.762" y="185.42" size="1.524" layer="95" rot="R90"/>
+</instance>
+<instance part="I2C1" gate="-4" x="256.54" y="182.88" smashed="yes" rot="R90">
+<attribute name="NAME" x="257.302" y="185.42" size="1.524" layer="95" rot="R90"/>
+</instance>
+<instance part="SUPPLY6" gate="GND" x="256.54" y="175.26" smashed="yes">
+<attribute name="VALUE" x="254.635" y="172.085" size="1.778" layer="96"/>
+</instance>
+<instance part="P+5" gate="VCC" x="248.92" y="175.26" smashed="yes" rot="R180">
+<attribute name="VALUE" x="251.46" y="177.8" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="RESET" gate="-1" x="132.08" y="185.42" smashed="yes" rot="R180">
+<attribute name="NAME" x="129.54" y="186.182" size="1.524" layer="95" rot="R180"/>
+<attribute name="VALUE" x="132.842" y="184.023" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="RESET" gate="-2" x="132.08" y="187.96" smashed="yes" rot="R180">
+<attribute name="NAME" x="129.54" y="188.722" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="SUPPLY7" gate="GND" x="139.7" y="185.42" smashed="yes" rot="R90">
+<attribute name="VALUE" x="142.875" y="183.515" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -7914,6 +8004,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="SUPPLY6" gate="GND" pin="GND"/>
 <pinref part="I2C1" gate="-4" pin="S"/>
 <wire x1="256.54" y1="177.8" x2="256.54" y2="180.34" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="RESET" gate="-1" pin="S"/>
+<pinref part="SUPPLY7" gate="GND" pin="GND"/>
+<wire x1="134.62" y1="185.42" x2="137.16" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -8008,6 +8103,15 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="KIT1" gate="KIT" pin="P28"/>
 <wire x1="254" y1="180.34" x2="254" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="254" y1="129.54" x2="246.38" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="KIT1" gate="KIT" pin="NR"/>
+<wire x1="149.86" y1="152.4" x2="144.78" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="152.4" x2="144.78" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="RESET" gate="-2" pin="S"/>
+<wire x1="144.78" y1="187.96" x2="134.62" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

@@ -160,10 +160,10 @@
 <wire x1="73.64" y1="20.32" x2="73.64" y2="60.63" width="0" layer="20"/>
 <wire x1="73.64" y1="60.63" x2="36.83" y2="60.63" width="0" layer="20"/>
 <wire x1="36.83" y1="60.63" x2="36.83" y2="20.32" width="0" layer="20"/>
-<hole x="43.18" y="53.34" drill="2"/>
-<hole x="39.37" y="22.86" drill="2"/>
-<hole x="69.85" y="49.53" drill="2"/>
-<hole x="69.85" y="29.21" drill="2"/>
+<hole x="43.18" y="53.34" drill="3"/>
+<hole x="39.37" y="22.86" drill="3"/>
+<hole x="69.85" y="49.53" drill="3"/>
+<hole x="69.85" y="29.21" drill="3"/>
 </plain>
 <libraries>
 <library name="con-lstb" urn="urn:adsk.eagle:library:162">
