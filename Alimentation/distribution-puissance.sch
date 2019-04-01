@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.1">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -7866,119 +7867,249 @@ Grid 5.00 mm&lt;p&gt;
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="GROS_CONDO" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E10-22.5"/>
 <part name="VOLTMETRE" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-02" device="05-7028"/>
-<part name="BORNIER1" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="19V"/>
-<part name="BORNIER2" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="19V"/>
-<part name="BORNIER3" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="19V"/>
-<part name="BORNIER4" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="19V"/>
-<part name="BORNIER5" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="19V"/>
+<part name="PUISSANCE1" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="19V"/>
+<part name="PUISSANCE2" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="19V"/>
+<part name="PUISSANCE3" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="19V"/>
+<part name="PUISSANCE4" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="19V"/>
+<part name="PUISSANCE5" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="19V"/>
 <part name="BATTERIE_GND1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="BATTERIE_GND2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="BATTERIE_GND3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="BATTERIE_GND4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="BATTERIE_GND5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="ALIM" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="19V"/>
+<part name="ALIM-PUISSANCE" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="19V"/>
 <part name="BATTERIE_GND6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="GROS_CONDO1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E10-22.5"/>
 <part name="VOLTMETRE1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-02" device="05-7028"/>
-<part name="BORNIER6" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="19V"/>
-<part name="BORNIER7" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="19V"/>
-<part name="BORNIER8" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="19V"/>
-<part name="BORNIER9" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="19V"/>
-<part name="BORNIER10" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="19V"/>
 <part name="BATTERIE_GND7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="BATTERIE_GND8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="BATTERIE_GND9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="BATTERIE_GND10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="BATTERIE_GND11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="ALIM1" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="19V"/>
+<part name="ALIM-LOGIQUE" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="5V"/>
 <part name="BATTERIE_GND12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="ARU1" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="19V"/>
-<part name="ARU2" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="19V"/>
+<part name="ARU-PUISSANCE" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="19V"/>
+<part name="ARU-LOGIQUE" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="5V"/>
+<part name="LOGIQUE1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-02" device="05-7028"/>
+<part name="LOGIQUE2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-02" device="05-7028"/>
+<part name="LOGIQUE3" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-02" device="05-7028"/>
+<part name="LOGIQUE4" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-02" device="05-7028"/>
+<part name="LOGIQUE5" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-02" device="05-7028"/>
+<part name="INTERUPTEUR-PUISSANCE" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="19V"/>
+<part name="INTERUPTEUR-LOGIQUE" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" value="5V"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="GROS_CONDO" gate="G$1" x="35.56" y="88.9" rot="R180"/>
-<instance part="VOLTMETRE" gate="-1" x="48.26" y="101.6" rot="R90"/>
-<instance part="VOLTMETRE" gate="-2" x="53.34" y="101.6" rot="R90"/>
-<instance part="BORNIER1" gate="-1" x="78.74" y="71.12" rot="R180"/>
-<instance part="BORNIER1" gate="-2" x="78.74" y="76.2" rot="R180"/>
-<instance part="BORNIER2" gate="-1" x="78.74" y="81.28" rot="R180"/>
-<instance part="BORNIER2" gate="-2" x="78.74" y="86.36" rot="R180"/>
-<instance part="BORNIER3" gate="-1" x="78.74" y="91.44" rot="R180"/>
-<instance part="BORNIER3" gate="-2" x="78.74" y="96.52" rot="R180"/>
-<instance part="BORNIER4" gate="-1" x="78.74" y="101.6" rot="R180"/>
-<instance part="BORNIER4" gate="-2" x="78.74" y="106.68" rot="R180"/>
-<instance part="BORNIER5" gate="-1" x="78.74" y="111.76" rot="R180"/>
-<instance part="BORNIER5" gate="-2" x="78.74" y="116.84" rot="R180"/>
-<instance part="BATTERIE_GND1" gate="GND" x="68.58" y="116.84" rot="R270"/>
-<instance part="BATTERIE_GND2" gate="GND" x="68.58" y="106.68" rot="R270"/>
-<instance part="BATTERIE_GND3" gate="GND" x="68.58" y="96.52" rot="R270"/>
-<instance part="BATTERIE_GND4" gate="GND" x="68.58" y="86.36" rot="R270"/>
-<instance part="BATTERIE_GND5" gate="GND" x="68.58" y="76.2" rot="R270"/>
-<instance part="ALIM" gate="-1" x="20.32" y="91.44" rot="R180"/>
-<instance part="ALIM" gate="-2" x="20.32" y="96.52" rot="R180"/>
-<instance part="BATTERIE_GND6" gate="GND" x="10.16" y="96.52" rot="R270"/>
-<instance part="GROS_CONDO1" gate="G$1" x="139.7" y="91.44" rot="R180"/>
-<instance part="VOLTMETRE1" gate="-1" x="152.4" y="104.14" rot="R90"/>
-<instance part="VOLTMETRE1" gate="-2" x="157.48" y="104.14" rot="R90"/>
-<instance part="BORNIER6" gate="-1" x="182.88" y="73.66" rot="R180"/>
-<instance part="BORNIER6" gate="-2" x="182.88" y="78.74" rot="R180"/>
-<instance part="BORNIER7" gate="-1" x="182.88" y="83.82" rot="R180"/>
-<instance part="BORNIER7" gate="-2" x="182.88" y="88.9" rot="R180"/>
-<instance part="BORNIER8" gate="-1" x="182.88" y="93.98" rot="R180"/>
-<instance part="BORNIER8" gate="-2" x="182.88" y="99.06" rot="R180"/>
-<instance part="BORNIER9" gate="-1" x="182.88" y="104.14" rot="R180"/>
-<instance part="BORNIER9" gate="-2" x="182.88" y="109.22" rot="R180"/>
-<instance part="BORNIER10" gate="-1" x="182.88" y="114.3" rot="R180"/>
-<instance part="BORNIER10" gate="-2" x="182.88" y="119.38" rot="R180"/>
-<instance part="BATTERIE_GND7" gate="GND" x="172.72" y="119.38" rot="R270"/>
-<instance part="BATTERIE_GND8" gate="GND" x="172.72" y="109.22" rot="R270"/>
-<instance part="BATTERIE_GND9" gate="GND" x="172.72" y="99.06" rot="R270"/>
-<instance part="BATTERIE_GND10" gate="GND" x="172.72" y="88.9" rot="R270"/>
-<instance part="BATTERIE_GND11" gate="GND" x="172.72" y="78.74" rot="R270"/>
-<instance part="ALIM1" gate="-1" x="124.46" y="93.98" rot="R180"/>
-<instance part="ALIM1" gate="-2" x="124.46" y="99.06" rot="R180"/>
-<instance part="BATTERIE_GND12" gate="GND" x="114.3" y="99.06" rot="R270"/>
-<instance part="ARU1" gate="-1" x="45.72" y="73.66" rot="R90"/>
-<instance part="ARU1" gate="-2" x="50.8" y="73.66" rot="R90"/>
-<instance part="ARU2" gate="-1" x="149.86" y="76.2" rot="R90"/>
-<instance part="ARU2" gate="-2" x="154.94" y="76.2" rot="R90"/>
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="DRAWING_NAME" x="217.17" y="15.24" size="2.54" layer="94"/>
+<attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94"/>
+<attribute name="SHEET" x="230.505" y="5.08" size="2.54" layer="94"/>
+</instance>
+<instance part="GROS_CONDO" gate="G$1" x="35.56" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="34.417" y="88.4174" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="34.417" y="93.4974" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="VOLTMETRE" gate="-1" x="48.26" y="101.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="49.022" y="104.14" size="1.524" layer="95" rot="R90"/>
+<attribute name="VALUE" x="46.863" y="100.838" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="VOLTMETRE" gate="-2" x="53.34" y="101.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="54.102" y="104.14" size="1.524" layer="95" rot="R90"/>
+</instance>
+<instance part="PUISSANCE1" gate="-1" x="78.74" y="71.12" smashed="yes" rot="R180">
+<attribute name="NAME" x="78.74" y="70.231" size="1.778" layer="95"/>
+</instance>
+<instance part="PUISSANCE1" gate="-2" x="78.74" y="76.2" smashed="yes" rot="R180">
+<attribute name="VALUE" x="81.28" y="79.883" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="78.74" y="75.311" size="1.778" layer="95"/>
+</instance>
+<instance part="PUISSANCE2" gate="-1" x="78.74" y="81.28" smashed="yes" rot="R180">
+<attribute name="NAME" x="78.74" y="80.391" size="1.778" layer="95"/>
+</instance>
+<instance part="PUISSANCE2" gate="-2" x="78.74" y="86.36" smashed="yes" rot="R180">
+<attribute name="VALUE" x="81.28" y="90.043" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="78.74" y="85.471" size="1.778" layer="95"/>
+</instance>
+<instance part="PUISSANCE3" gate="-1" x="78.74" y="91.44" smashed="yes" rot="R180">
+<attribute name="NAME" x="78.74" y="90.551" size="1.778" layer="95"/>
+</instance>
+<instance part="PUISSANCE3" gate="-2" x="78.74" y="96.52" smashed="yes" rot="R180">
+<attribute name="VALUE" x="81.28" y="100.203" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="78.74" y="95.631" size="1.778" layer="95"/>
+</instance>
+<instance part="PUISSANCE4" gate="-1" x="78.74" y="101.6" smashed="yes" rot="R180">
+<attribute name="NAME" x="78.74" y="100.711" size="1.778" layer="95"/>
+</instance>
+<instance part="PUISSANCE4" gate="-2" x="78.74" y="106.68" smashed="yes" rot="R180">
+<attribute name="VALUE" x="81.28" y="110.363" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="78.74" y="105.791" size="1.778" layer="95"/>
+</instance>
+<instance part="PUISSANCE5" gate="-1" x="78.74" y="111.76" smashed="yes" rot="R180">
+<attribute name="NAME" x="78.74" y="110.871" size="1.778" layer="95"/>
+</instance>
+<instance part="PUISSANCE5" gate="-2" x="78.74" y="116.84" smashed="yes" rot="R180">
+<attribute name="VALUE" x="81.28" y="120.523" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="78.74" y="115.951" size="1.778" layer="95"/>
+</instance>
+<instance part="BATTERIE_GND1" gate="GND" x="68.58" y="116.84" smashed="yes" rot="R270">
+<attribute name="VALUE" x="65.405" y="118.745" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="BATTERIE_GND2" gate="GND" x="68.58" y="106.68" smashed="yes" rot="R270">
+<attribute name="VALUE" x="65.405" y="108.585" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="BATTERIE_GND3" gate="GND" x="68.58" y="96.52" smashed="yes" rot="R270">
+<attribute name="VALUE" x="65.405" y="98.425" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="BATTERIE_GND4" gate="GND" x="68.58" y="86.36" smashed="yes" rot="R270">
+<attribute name="VALUE" x="65.405" y="88.265" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="BATTERIE_GND5" gate="GND" x="68.58" y="76.2" smashed="yes" rot="R270">
+<attribute name="VALUE" x="65.405" y="78.105" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="ALIM-PUISSANCE" gate="-1" x="20.32" y="91.44" smashed="yes" rot="R180">
+<attribute name="NAME" x="20.32" y="90.551" size="1.778" layer="95"/>
+</instance>
+<instance part="ALIM-PUISSANCE" gate="-2" x="20.32" y="96.52" smashed="yes" rot="R180">
+<attribute name="VALUE" x="22.86" y="100.203" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="20.32" y="95.631" size="1.778" layer="95"/>
+</instance>
+<instance part="BATTERIE_GND6" gate="GND" x="10.16" y="96.52" smashed="yes" rot="R270">
+<attribute name="VALUE" x="6.985" y="98.425" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GROS_CONDO1" gate="G$1" x="139.7" y="91.44" smashed="yes" rot="R180">
+<attribute name="NAME" x="138.557" y="90.9574" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="138.557" y="96.0374" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="VOLTMETRE1" gate="-1" x="152.4" y="104.14" smashed="yes" rot="R90">
+<attribute name="NAME" x="153.162" y="106.68" size="1.524" layer="95" rot="R90"/>
+<attribute name="VALUE" x="151.003" y="103.378" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="VOLTMETRE1" gate="-2" x="157.48" y="104.14" smashed="yes" rot="R90">
+<attribute name="NAME" x="158.242" y="106.68" size="1.524" layer="95" rot="R90"/>
+</instance>
+<instance part="BATTERIE_GND7" gate="GND" x="172.72" y="119.38" smashed="yes" rot="R270">
+<attribute name="VALUE" x="169.545" y="121.285" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="BATTERIE_GND8" gate="GND" x="172.72" y="109.22" smashed="yes" rot="R270">
+<attribute name="VALUE" x="169.545" y="111.125" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="BATTERIE_GND9" gate="GND" x="172.72" y="99.06" smashed="yes" rot="R270">
+<attribute name="VALUE" x="169.545" y="100.965" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="BATTERIE_GND10" gate="GND" x="172.72" y="88.9" smashed="yes" rot="R270">
+<attribute name="VALUE" x="169.545" y="90.805" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="BATTERIE_GND11" gate="GND" x="172.72" y="78.74" smashed="yes" rot="R270">
+<attribute name="VALUE" x="169.545" y="80.645" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="ALIM-LOGIQUE" gate="-1" x="124.46" y="93.98" smashed="yes" rot="R180">
+<attribute name="NAME" x="124.46" y="93.091" size="1.778" layer="95"/>
+</instance>
+<instance part="ALIM-LOGIQUE" gate="-2" x="124.46" y="99.06" smashed="yes" rot="R180">
+<attribute name="VALUE" x="127" y="102.743" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="124.46" y="98.171" size="1.778" layer="95"/>
+</instance>
+<instance part="BATTERIE_GND12" gate="GND" x="114.3" y="99.06" smashed="yes" rot="R270">
+<attribute name="VALUE" x="111.125" y="100.965" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="ARU-PUISSANCE" gate="-1" x="40.64" y="76.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="39.751" y="76.2" size="1.778" layer="95" rot="R270"/>
+</instance>
+<instance part="ARU-PUISSANCE" gate="-2" x="45.72" y="76.2" smashed="yes" rot="R90">
+<attribute name="VALUE" x="49.403" y="73.66" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="44.831" y="76.2" size="1.778" layer="95" rot="R270"/>
+</instance>
+<instance part="ARU-LOGIQUE" gate="-1" x="144.78" y="78.74" smashed="yes" rot="R90">
+<attribute name="NAME" x="143.891" y="78.74" size="1.778" layer="95" rot="R270"/>
+</instance>
+<instance part="ARU-LOGIQUE" gate="-2" x="149.86" y="78.74" smashed="yes" rot="R90">
+<attribute name="VALUE" x="153.543" y="76.2" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="148.971" y="78.74" size="1.778" layer="95" rot="R270"/>
+</instance>
+<instance part="LOGIQUE1" gate="-1" x="180.34" y="78.74" smashed="yes">
+<attribute name="NAME" x="182.88" y="77.978" size="1.524" layer="95"/>
+<attribute name="VALUE" x="179.578" y="80.137" size="1.778" layer="96"/>
+</instance>
+<instance part="LOGIQUE1" gate="-2" x="180.34" y="73.66" smashed="yes">
+<attribute name="NAME" x="182.88" y="72.898" size="1.524" layer="95"/>
+</instance>
+<instance part="LOGIQUE2" gate="-1" x="180.34" y="88.9" smashed="yes">
+<attribute name="NAME" x="182.88" y="88.138" size="1.524" layer="95"/>
+<attribute name="VALUE" x="179.578" y="90.297" size="1.778" layer="96"/>
+</instance>
+<instance part="LOGIQUE2" gate="-2" x="180.34" y="83.82" smashed="yes">
+<attribute name="NAME" x="182.88" y="83.058" size="1.524" layer="95"/>
+</instance>
+<instance part="LOGIQUE3" gate="-1" x="180.34" y="99.06" smashed="yes">
+<attribute name="NAME" x="182.88" y="98.298" size="1.524" layer="95"/>
+<attribute name="VALUE" x="179.578" y="100.457" size="1.778" layer="96"/>
+</instance>
+<instance part="LOGIQUE3" gate="-2" x="180.34" y="93.98" smashed="yes">
+<attribute name="NAME" x="182.88" y="93.218" size="1.524" layer="95"/>
+</instance>
+<instance part="LOGIQUE4" gate="-1" x="180.34" y="109.22" smashed="yes">
+<attribute name="NAME" x="182.88" y="108.458" size="1.524" layer="95"/>
+<attribute name="VALUE" x="179.578" y="110.617" size="1.778" layer="96"/>
+</instance>
+<instance part="LOGIQUE4" gate="-2" x="180.34" y="104.14" smashed="yes">
+<attribute name="NAME" x="182.88" y="103.378" size="1.524" layer="95"/>
+</instance>
+<instance part="LOGIQUE5" gate="-1" x="180.34" y="119.38" smashed="yes">
+<attribute name="NAME" x="182.88" y="118.618" size="1.524" layer="95"/>
+<attribute name="VALUE" x="179.578" y="120.777" size="1.778" layer="96"/>
+</instance>
+<instance part="LOGIQUE5" gate="-2" x="180.34" y="114.3" smashed="yes">
+<attribute name="NAME" x="182.88" y="113.538" size="1.524" layer="95"/>
+</instance>
+<instance part="INTERUPTEUR-PUISSANCE" gate="-1" x="50.8" y="76.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="49.911" y="76.2" size="1.778" layer="95" rot="R270"/>
+</instance>
+<instance part="INTERUPTEUR-PUISSANCE" gate="-2" x="55.88" y="76.2" smashed="yes" rot="R90">
+<attribute name="VALUE" x="59.563" y="73.66" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="54.991" y="76.2" size="1.778" layer="95" rot="R270"/>
+</instance>
+<instance part="INTERUPTEUR-LOGIQUE" gate="-1" x="154.94" y="78.74" smashed="yes" rot="R90">
+<attribute name="NAME" x="154.051" y="78.74" size="1.778" layer="95" rot="R270"/>
+</instance>
+<instance part="INTERUPTEUR-LOGIQUE" gate="-2" x="160.02" y="78.74" smashed="yes" rot="R90">
+<attribute name="VALUE" x="163.703" y="76.2" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="159.131" y="78.74" size="1.778" layer="95" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="BORNIER1" gate="-2" pin="KL"/>
+<pinref part="PUISSANCE1" gate="-2" pin="KL"/>
 <pinref part="BATTERIE_GND5" gate="GND" pin="GND"/>
 <wire x1="73.66" y1="76.2" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="BORNIER2" gate="-2" pin="KL"/>
+<pinref part="PUISSANCE2" gate="-2" pin="KL"/>
 <pinref part="BATTERIE_GND4" gate="GND" pin="GND"/>
 <wire x1="73.66" y1="86.36" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="BORNIER3" gate="-2" pin="KL"/>
+<pinref part="PUISSANCE3" gate="-2" pin="KL"/>
 <pinref part="BATTERIE_GND3" gate="GND" pin="GND"/>
 <wire x1="73.66" y1="96.52" x2="71.12" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="BORNIER4" gate="-2" pin="KL"/>
+<pinref part="PUISSANCE4" gate="-2" pin="KL"/>
 <pinref part="BATTERIE_GND2" gate="GND" pin="GND"/>
 <wire x1="73.66" y1="106.68" x2="71.12" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="BORNIER5" gate="-2" pin="KL"/>
+<pinref part="PUISSANCE5" gate="-2" pin="KL"/>
 <pinref part="BATTERIE_GND1" gate="GND" pin="GND"/>
 <wire x1="73.66" y1="116.84" x2="71.12" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ALIM" gate="-2" pin="KL"/>
+<pinref part="ALIM-PUISSANCE" gate="-2" pin="KL"/>
 <pinref part="BATTERIE_GND6" gate="GND" pin="GND"/>
 <wire x1="15.24" y1="96.52" x2="12.7" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="GROS_CONDO" gate="G$1" pin="-"/>
@@ -7993,32 +8124,32 @@ Grid 5.00 mm&lt;p&gt;
 <junction x="15.24" y="96.52"/>
 </segment>
 <segment>
-<pinref part="BORNIER6" gate="-2" pin="KL"/>
 <pinref part="BATTERIE_GND11" gate="GND" pin="GND"/>
 <wire x1="177.8" y1="78.74" x2="175.26" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="LOGIQUE1" gate="-1" pin="S"/>
 </segment>
 <segment>
-<pinref part="BORNIER7" gate="-2" pin="KL"/>
 <pinref part="BATTERIE_GND10" gate="GND" pin="GND"/>
 <wire x1="177.8" y1="88.9" x2="175.26" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="LOGIQUE2" gate="-1" pin="S"/>
 </segment>
 <segment>
-<pinref part="BORNIER8" gate="-2" pin="KL"/>
 <pinref part="BATTERIE_GND9" gate="GND" pin="GND"/>
 <wire x1="177.8" y1="99.06" x2="175.26" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="LOGIQUE3" gate="-1" pin="S"/>
 </segment>
 <segment>
-<pinref part="BORNIER9" gate="-2" pin="KL"/>
 <pinref part="BATTERIE_GND8" gate="GND" pin="GND"/>
 <wire x1="177.8" y1="109.22" x2="175.26" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="LOGIQUE4" gate="-1" pin="S"/>
 </segment>
 <segment>
-<pinref part="BORNIER10" gate="-2" pin="KL"/>
 <pinref part="BATTERIE_GND7" gate="GND" pin="GND"/>
 <wire x1="177.8" y1="119.38" x2="175.26" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="LOGIQUE5" gate="-1" pin="S"/>
 </segment>
 <segment>
-<pinref part="ALIM1" gate="-2" pin="KL"/>
+<pinref part="ALIM-LOGIQUE" gate="-2" pin="KL"/>
 <pinref part="BATTERIE_GND12" gate="GND" pin="GND"/>
 <wire x1="119.38" y1="99.06" x2="116.84" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="GROS_CONDO1" gate="G$1" pin="-"/>
@@ -8039,83 +8170,93 @@ Grid 5.00 mm&lt;p&gt;
 <net name="N$1" class="0">
 <segment>
 <wire x1="60.96" y1="81.28" x2="60.96" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="BORNIER1" gate="-1" pin="KL"/>
+<pinref part="PUISSANCE1" gate="-1" pin="KL"/>
 <wire x1="60.96" y1="71.12" x2="73.66" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="BORNIER2" gate="-1" pin="KL"/>
+<pinref part="PUISSANCE2" gate="-1" pin="KL"/>
 <wire x1="60.96" y1="81.28" x2="73.66" y2="81.28" width="0.1524" layer="91"/>
 <junction x="60.96" y="81.28"/>
 <wire x1="60.96" y1="81.28" x2="60.96" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="BORNIER3" gate="-1" pin="KL"/>
+<pinref part="PUISSANCE3" gate="-1" pin="KL"/>
 <wire x1="60.96" y1="91.44" x2="73.66" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="91.44" x2="60.96" y2="101.6" width="0.1524" layer="91"/>
 <junction x="60.96" y="91.44"/>
-<pinref part="BORNIER4" gate="-1" pin="KL"/>
+<pinref part="PUISSANCE4" gate="-1" pin="KL"/>
 <wire x1="60.96" y1="101.6" x2="73.66" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="101.6" x2="60.96" y2="111.76" width="0.1524" layer="91"/>
 <junction x="60.96" y="101.6"/>
-<pinref part="BORNIER5" gate="-1" pin="KL"/>
+<pinref part="PUISSANCE5" gate="-1" pin="KL"/>
 <wire x1="60.96" y1="111.76" x2="73.66" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="VOLTMETRE" gate="-2" pin="S"/>
 <wire x1="53.34" y1="99.06" x2="53.34" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="91.44" x2="60.96" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="ARU1" gate="-2" pin="KL"/>
-<wire x1="50.8" y1="78.74" x2="50.8" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="81.28" x2="60.96" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="INTERUPTEUR-PUISSANCE" gate="-2" pin="KL"/>
+<wire x1="60.96" y1="81.28" x2="55.88" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <wire x1="165.1" y1="83.82" x2="165.1" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="BORNIER6" gate="-1" pin="KL"/>
 <wire x1="165.1" y1="73.66" x2="177.8" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="BORNIER7" gate="-1" pin="KL"/>
 <wire x1="165.1" y1="83.82" x2="177.8" y2="83.82" width="0.1524" layer="91"/>
 <junction x="165.1" y="83.82"/>
 <wire x1="165.1" y1="83.82" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="BORNIER8" gate="-1" pin="KL"/>
 <wire x1="165.1" y1="93.98" x2="177.8" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="93.98" x2="165.1" y2="104.14" width="0.1524" layer="91"/>
 <junction x="165.1" y="93.98"/>
-<pinref part="BORNIER9" gate="-1" pin="KL"/>
 <wire x1="165.1" y1="104.14" x2="177.8" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="104.14" x2="165.1" y2="114.3" width="0.1524" layer="91"/>
 <junction x="165.1" y="104.14"/>
-<pinref part="BORNIER10" gate="-1" pin="KL"/>
 <wire x1="165.1" y1="114.3" x2="177.8" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="VOLTMETRE1" gate="-2" pin="S"/>
 <wire x1="157.48" y1="101.6" x2="157.48" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="93.98" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="ARU2" gate="-2" pin="KL"/>
-<wire x1="154.94" y1="81.28" x2="154.94" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="LOGIQUE1" gate="-2" pin="S"/>
+<pinref part="LOGIQUE2" gate="-2" pin="S"/>
+<pinref part="LOGIQUE3" gate="-2" pin="S"/>
+<pinref part="LOGIQUE4" gate="-2" pin="S"/>
+<pinref part="LOGIQUE5" gate="-2" pin="S"/>
+<pinref part="INTERUPTEUR-LOGIQUE" gate="-2" pin="KL"/>
+<wire x1="165.1" y1="83.82" x2="160.02" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="ALIM" gate="-1" pin="KL"/>
+<pinref part="ALIM-PUISSANCE" gate="-1" pin="KL"/>
+<wire x1="15.24" y1="78.74" x2="15.24" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="GROS_CONDO" gate="G$1" pin="+"/>
 <wire x1="35.56" y1="86.36" x2="35.56" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="81.28" x2="35.56" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="78.74" x2="15.24" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="78.74" x2="15.24" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="ARU1" gate="-1" pin="KL"/>
-<wire x1="45.72" y1="78.74" x2="45.72" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="81.28" x2="35.56" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="78.74" x2="35.56" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="ARU-PUISSANCE" gate="-1" pin="KL"/>
+<wire x1="40.64" y1="81.28" x2="35.56" y2="81.28" width="0.1524" layer="91"/>
 <junction x="35.56" y="81.28"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="ALIM1" gate="-1" pin="KL"/>
+<pinref part="ALIM-LOGIQUE" gate="-1" pin="KL"/>
+<wire x1="119.38" y1="81.28" x2="119.38" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="GROS_CONDO1" gate="G$1" pin="+"/>
 <wire x1="139.7" y1="88.9" x2="139.7" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="83.82" x2="139.7" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="81.28" x2="119.38" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="81.28" x2="119.38" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="ARU2" gate="-1" pin="KL"/>
-<wire x1="149.86" y1="81.28" x2="149.86" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="83.82" x2="139.7" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="81.28" x2="139.7" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="ARU-LOGIQUE" gate="-1" pin="KL"/>
+<wire x1="144.78" y1="83.82" x2="139.7" y2="83.82" width="0.1524" layer="91"/>
 <junction x="139.7" y="83.82"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="INTERUPTEUR-PUISSANCE" gate="-1" pin="KL"/>
+<pinref part="ARU-PUISSANCE" gate="-2" pin="KL"/>
+<wire x1="50.8" y1="81.28" x2="45.72" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="INTERUPTEUR-LOGIQUE" gate="-1" pin="KL"/>
+<pinref part="ARU-LOGIQUE" gate="-2" pin="KL"/>
+<wire x1="154.94" y1="83.82" x2="149.86" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -8130,7 +8271,7 @@ Grid 5.00 mm&lt;p&gt;
 </drawing>
 <compatibility>
 <note version="8.2" severity="warning">
-Since Version 8.2, Eagle supports online libraries. The ids
+Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
 </note>
