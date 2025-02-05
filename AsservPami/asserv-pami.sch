@@ -12523,6 +12523,10 @@ DIN A4, with small doc field</description>
 <part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY20" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C3" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/2.5" value="0.33uF"/>
+<part name="SUPPLY21" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="BAU" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
+<part name="VOLTMETRE" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
+<part name="SUPPLY22" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12600,12 +12604,12 @@ DIN A4, with small doc field</description>
 <attribute name="NAME" x="63.5" y="122.555" size="1.778" layer="95"/>
 <attribute name="VALUE" x="63.5" y="120.015" size="1.778" layer="96"/>
 </instance>
-<instance part="BATTERIE" gate="-1" x="45.72" y="114.3" smashed="yes" rot="R180">
-<attribute name="NAME" x="43.18" y="115.062" size="1.524" layer="95" rot="R180"/>
-<attribute name="VALUE" x="46.482" y="112.903" size="1.778" layer="96" rot="R180"/>
+<instance part="BATTERIE" gate="-1" x="35.56" y="114.3" smashed="yes" rot="R180">
+<attribute name="NAME" x="33.02" y="115.062" size="1.524" layer="95" rot="R180"/>
+<attribute name="VALUE" x="36.322" y="112.903" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="BATTERIE" gate="-2" x="45.72" y="116.84" smashed="yes" rot="R180">
-<attribute name="NAME" x="43.18" y="117.602" size="1.524" layer="95" rot="R180"/>
+<instance part="BATTERIE" gate="-2" x="35.56" y="116.84" smashed="yes" rot="R180">
+<attribute name="NAME" x="33.02" y="117.602" size="1.524" layer="95" rot="R180"/>
 </instance>
 <instance part="C1" gate="G$1" x="53.34" y="114.3" smashed="yes">
 <attribute name="NAME" x="54.864" y="114.681" size="1.778" layer="95"/>
@@ -12742,6 +12746,26 @@ DIN A4, with small doc field</description>
 <attribute name="NAME" x="126.619" y="105.664" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="131.699" y="105.664" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="SUPPLY21" gate="GND" x="43.18" y="114.3" smashed="yes" rot="R90">
+<attribute name="VALUE" x="46.355" y="112.395" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="BAU" gate="-1" x="43.18" y="119.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="43.942" y="121.92" size="1.524" layer="95" rot="R90"/>
+<attribute name="VALUE" x="41.783" y="118.618" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="BAU" gate="-2" x="45.72" y="119.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="46.482" y="121.92" size="1.524" layer="95" rot="R90"/>
+</instance>
+<instance part="VOLTMETRE" gate="-1" x="17.78" y="160.02" smashed="yes" rot="R90">
+<attribute name="NAME" x="18.542" y="162.56" size="1.524" layer="95" rot="R90"/>
+<attribute name="VALUE" x="16.383" y="159.258" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="VOLTMETRE" gate="-2" x="20.32" y="160.02" smashed="yes" rot="R90">
+<attribute name="NAME" x="21.082" y="162.56" size="1.524" layer="95" rot="R90"/>
+</instance>
+<instance part="SUPPLY22" gate="GND" x="17.78" y="149.86" smashed="yes">
+<attribute name="VALUE" x="15.875" y="146.685" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -12789,13 +12813,8 @@ DIN A4, with small doc field</description>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="109.22" x2="88.9" y2="109.22" width="0.1524" layer="91"/>
 <junction x="71.12" y="109.22"/>
-<pinref part="BATTERIE" gate="-1" pin="S"/>
-<wire x1="48.26" y1="114.3" x2="48.26" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="104.14" x2="71.12" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="104.14" x2="71.12" y2="109.22" width="0.1524" layer="91"/>
-<junction x="71.12" y="104.14"/>
 <pinref part="SUPPLY9" gate="GND" pin="GND"/>
-<wire x1="71.12" y1="104.14" x2="71.12" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="109.22" x2="71.12" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="POLOLU-MP6550-1-2" gate="J1" pin="5"/>
@@ -12861,6 +12880,16 @@ DIN A4, with small doc field</description>
 <pinref part="SUPPLY20" gate="GND" pin="GND"/>
 <wire x1="83.82" y1="45.72" x2="83.82" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="SERVO1" gate="J1" pin="3"/>
+</segment>
+<segment>
+<pinref part="SUPPLY21" gate="GND" pin="GND"/>
+<wire x1="38.1" y1="114.3" x2="40.64" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="BATTERIE" gate="-1" pin="S"/>
+</segment>
+<segment>
+<pinref part="SUPPLY22" gate="GND" pin="GND"/>
+<wire x1="17.78" y1="157.48" x2="17.78" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="VOLTMETRE" gate="-1" pin="S"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -13165,14 +13194,14 @@ DIN A4, with small doc field</description>
 </net>
 <net name="VIN" class="0">
 <segment>
-<pinref part="BATTERIE" gate="-2" pin="S"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="48.26" y1="116.84" x2="53.34" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A1" pin="VI"/>
 <wire x1="53.34" y1="116.84" x2="60.96" y2="116.84" width="0.1524" layer="91"/>
 <junction x="53.34" y="116.84"/>
 <wire x1="53.34" y1="116.84" x2="53.34" y2="121.92" width="0.1524" layer="91"/>
 <label x="53.34" y="121.92" size="1.778" layer="95"/>
+<pinref part="BAU" gate="-2" pin="S"/>
+<wire x1="45.72" y1="116.84" x2="53.34" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="POLOLU-U3V40F12" gate="J1" pin="4"/>
@@ -13186,6 +13215,11 @@ DIN A4, with small doc field</description>
 <wire x1="132.08" y1="104.14" x2="132.08" y2="101.6" width="0.1524" layer="91"/>
 <junction x="132.08" y="104.14"/>
 <label x="132.08" y="101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="VOLTMETRE" gate="-2" pin="S"/>
+<wire x1="20.32" y1="157.48" x2="20.32" y2="152.4" width="0.1524" layer="91"/>
+<label x="20.32" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -13310,6 +13344,13 @@ DIN A4, with small doc field</description>
 <wire x1="66.04" y1="66.04" x2="66.04" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="ESP32-S3-ZERO-2" gate="J1" pin="5"/>
 <wire x1="66.04" y1="71.12" x2="55.88" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="BATTERIE" gate="-2" pin="S"/>
+<pinref part="BAU" gate="-1" pin="S"/>
+<wire x1="38.1" y1="116.84" x2="43.18" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
