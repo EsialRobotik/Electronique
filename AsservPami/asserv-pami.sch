@@ -13224,26 +13224,26 @@ DIN A4, with small doc field</description>
 </net>
 <net name="SDA" class="0">
 <segment>
-<pinref part="ESP32-S3-ZERO-2" gate="J1" pin="7"/>
-<wire x1="55.88" y1="76.2" x2="63.5" y2="76.2" width="0.1524" layer="91"/>
-<label x="63.5" y="76.2" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="I2C" gate="J1" pin="1"/>
 <wire x1="96.52" y1="76.2" x2="96.52" y2="68.58" width="0.1524" layer="91"/>
 <label x="96.52" y="68.58" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<wire x1="55.88" y1="66.04" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
+<label x="63.5" y="66.04" size="1.778" layer="95"/>
+<pinref part="ESP32-S3-ZERO-2" gate="J1" pin="3"/>
+</segment>
 </net>
 <net name="SCL" class="0">
-<segment>
-<pinref part="ESP32-S3-ZERO-2" gate="J1" pin="6"/>
-<wire x1="55.88" y1="73.66" x2="63.5" y2="73.66" width="0.1524" layer="91"/>
-<label x="63.5" y="73.66" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="I2C" gate="J1" pin="2"/>
 <wire x1="99.06" y1="76.2" x2="99.06" y2="68.58" width="0.1524" layer="91"/>
 <label x="99.06" y="68.58" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<wire x1="55.88" y1="63.5" x2="63.5" y2="63.5" width="0.1524" layer="91"/>
+<label x="63.5" y="63.5" size="1.778" layer="95"/>
+<pinref part="ESP32-S3-ZERO-2" gate="J1" pin="2"/>
 </segment>
 </net>
 <net name="TIRETTE" class="0">
