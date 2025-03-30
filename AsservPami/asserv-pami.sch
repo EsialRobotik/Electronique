@@ -12500,8 +12500,8 @@ DIN A4, with small doc field</description>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="POLOLU-U3V40F12" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_06" device="NO_SILK_FEMALE_PTH" package3d_urn="urn:adsk.eagle:package:38130/2"/>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="ESP32-S3-ZERO-2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_09" device="LONGPADS" package3d_urn="urn:adsk.eagle:package:38155/2"/>
-<part name="ESP32-S3-ZERO-1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_09" device="LONGPADS" package3d_urn="urn:adsk.eagle:package:38155/2"/>
+<part name="ESP32-C3-ZERO-2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_09" device="LONGPADS" package3d_urn="urn:adsk.eagle:package:38155/2"/>
+<part name="ESP32-C3-ZERO-1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_09" device="LONGPADS" package3d_urn="urn:adsk.eagle:package:38155/2"/>
 <part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="I2C" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="PTH" package3d_urn="urn:adsk.eagle:package:38085/2"/>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -12647,11 +12647,11 @@ DIN A4, with small doc field</description>
 <instance part="SUPPLY10" gate="GND" x="124.46" y="101.6" smashed="yes">
 <attribute name="VALUE" x="122.555" y="98.425" size="1.778" layer="96"/>
 </instance>
-<instance part="ESP32-S3-ZERO-2" gate="J1" x="45.72" y="71.12" smashed="yes">
+<instance part="ESP32-C3-ZERO-2" gate="J1" x="45.72" y="71.12" smashed="yes">
 <attribute name="VALUE" x="45.72" y="56.134" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="45.72" y="84.328" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="ESP32-S3-ZERO-1" gate="J1" x="38.1" y="71.12" smashed="yes" rot="R180">
+<instance part="ESP32-C3-ZERO-1" gate="J1" x="38.1" y="71.12" smashed="yes" rot="R180">
 <attribute name="VALUE" x="38.1" y="86.106" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="38.1" y="57.912" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
@@ -12842,7 +12842,7 @@ DIN A4, with small doc field</description>
 <junction x="124.46" y="104.14"/>
 </segment>
 <segment>
-<pinref part="ESP32-S3-ZERO-1" gate="J1" pin="2"/>
+<pinref part="ESP32-C3-ZERO-1" gate="J1" pin="2"/>
 <pinref part="SUPPLY13" gate="GND" pin="GND"/>
 <wire x1="27.94" y1="78.74" x2="20.32" y2="78.74" width="0.1524" layer="91"/>
 </segment>
@@ -13016,7 +13016,7 @@ DIN A4, with small doc field</description>
 <label x="93.98" y="172.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ESP32-S3-ZERO-2" gate="J1" pin="8"/>
+<pinref part="ESP32-C3-ZERO-2" gate="J1" pin="8"/>
 <wire x1="55.88" y1="78.74" x2="63.5" y2="78.74" width="0.1524" layer="91"/>
 <label x="63.5" y="78.74" size="1.778" layer="95"/>
 </segment>
@@ -13028,7 +13028,7 @@ DIN A4, with small doc field</description>
 <label x="93.98" y="170.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ESP32-S3-ZERO-2" gate="J1" pin="9"/>
+<pinref part="ESP32-C3-ZERO-2" gate="J1" pin="9"/>
 <wire x1="55.88" y1="81.28" x2="63.5" y2="81.28" width="0.1524" layer="91"/>
 <label x="63.5" y="81.28" size="1.778" layer="95"/>
 </segment>
@@ -13116,7 +13116,7 @@ DIN A4, with small doc field</description>
 <label x="99.06" y="116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ESP32-S3-ZERO-1" gate="J1" pin="1"/>
+<pinref part="ESP32-C3-ZERO-1" gate="J1" pin="1"/>
 <wire x1="27.94" y1="81.28" x2="20.32" y2="81.28" width="0.1524" layer="91"/>
 <label x="20.32" y="81.28" size="1.778" layer="95"/>
 </segment>
@@ -13231,7 +13231,7 @@ DIN A4, with small doc field</description>
 <segment>
 <wire x1="55.88" y1="66.04" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
 <label x="63.5" y="66.04" size="1.778" layer="95"/>
-<pinref part="ESP32-S3-ZERO-2" gate="J1" pin="3"/>
+<pinref part="ESP32-C3-ZERO-2" gate="J1" pin="3"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -13243,7 +13243,7 @@ DIN A4, with small doc field</description>
 <segment>
 <wire x1="55.88" y1="63.5" x2="63.5" y2="63.5" width="0.1524" layer="91"/>
 <label x="63.5" y="63.5" size="1.778" layer="95"/>
-<pinref part="ESP32-S3-ZERO-2" gate="J1" pin="2"/>
+<pinref part="ESP32-C3-ZERO-2" gate="J1" pin="2"/>
 </segment>
 </net>
 <net name="TIRETTE" class="0">
@@ -13258,7 +13258,7 @@ DIN A4, with small doc field</description>
 <segment>
 <wire x1="27.94" y1="73.66" x2="17.78" y2="73.66" width="0.1524" layer="91"/>
 <label x="17.78" y="73.66" size="1.778" layer="95"/>
-<pinref part="ESP32-S3-ZERO-1" gate="J1" pin="4"/>
+<pinref part="ESP32-C3-ZERO-1" gate="J1" pin="4"/>
 </segment>
 </net>
 <net name="COULEUR" class="0">
@@ -13273,7 +13273,7 @@ DIN A4, with small doc field</description>
 <segment>
 <wire x1="27.94" y1="71.12" x2="17.78" y2="71.12" width="0.1524" layer="91"/>
 <label x="17.78" y="71.12" size="1.778" layer="95"/>
-<pinref part="ESP32-S3-ZERO-1" gate="J1" pin="5"/>
+<pinref part="ESP32-C3-ZERO-1" gate="J1" pin="5"/>
 </segment>
 </net>
 <net name="GPIO1" class="0">
@@ -13288,7 +13288,7 @@ DIN A4, with small doc field</description>
 <segment>
 <wire x1="27.94" y1="68.58" x2="17.78" y2="68.58" width="0.1524" layer="91"/>
 <label x="17.78" y="68.58" size="1.778" layer="95"/>
-<pinref part="ESP32-S3-ZERO-1" gate="J1" pin="6"/>
+<pinref part="ESP32-C3-ZERO-1" gate="J1" pin="6"/>
 </segment>
 </net>
 <net name="GPIO2" class="0">
@@ -13303,7 +13303,7 @@ DIN A4, with small doc field</description>
 <segment>
 <wire x1="27.94" y1="66.04" x2="17.78" y2="66.04" width="0.1524" layer="91"/>
 <label x="17.78" y="66.04" size="1.778" layer="95"/>
-<pinref part="ESP32-S3-ZERO-1" gate="J1" pin="7"/>
+<pinref part="ESP32-C3-ZERO-1" gate="J1" pin="7"/>
 </segment>
 </net>
 <net name="SERVO1" class="0">
@@ -13315,7 +13315,7 @@ DIN A4, with small doc field</description>
 <segment>
 <wire x1="27.94" y1="63.5" x2="17.78" y2="63.5" width="0.1524" layer="91"/>
 <label x="17.78" y="63.5" size="1.778" layer="95"/>
-<pinref part="ESP32-S3-ZERO-1" gate="J1" pin="8"/>
+<pinref part="ESP32-C3-ZERO-1" gate="J1" pin="8"/>
 </segment>
 </net>
 <net name="SERVO2" class="0">
@@ -13327,14 +13327,14 @@ DIN A4, with small doc field</description>
 <segment>
 <wire x1="27.94" y1="60.96" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
 <label x="17.78" y="60.96" size="1.778" layer="95"/>
-<pinref part="ESP32-S3-ZERO-1" gate="J1" pin="9"/>
+<pinref part="ESP32-C3-ZERO-1" gate="J1" pin="9"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="UART" gate="-1" pin="S"/>
 <wire x1="68.58" y1="66.04" x2="68.58" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="ESP32-S3-ZERO-2" gate="J1" pin="4"/>
+<pinref part="ESP32-C3-ZERO-2" gate="J1" pin="4"/>
 <wire x1="68.58" y1="68.58" x2="55.88" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -13342,7 +13342,7 @@ DIN A4, with small doc field</description>
 <segment>
 <pinref part="UART" gate="-2" pin="S"/>
 <wire x1="66.04" y1="66.04" x2="66.04" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="ESP32-S3-ZERO-2" gate="J1" pin="5"/>
+<pinref part="ESP32-C3-ZERO-2" gate="J1" pin="5"/>
 <wire x1="66.04" y1="71.12" x2="55.88" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
