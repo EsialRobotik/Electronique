@@ -12488,10 +12488,10 @@ DIN A4, with small doc field</description>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="USB-DEBUG" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_05" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:38108/2"/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="IC2" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="TV" technology="05"/>
+<part name="IC2" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="TV" technology="05" value="L4941BV"/>
 <part name="BATTERIE" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
-<part name="C1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/2.5" value="0.33uF"/>
-<part name="C2" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/2.5" value="0.1uF"/>
+<part name="C1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/2.5" value="0.1uF"/>
+<part name="C2" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/2.5" value="22uF"/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4-SMALL-DOCFIELD" device=""/>
 <part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -12522,11 +12522,13 @@ DIN A4, with small doc field</description>
 <part name="SERVO2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="LONGPADS" package3d_urn="urn:adsk.eagle:package:38068/2"/>
 <part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY20" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C3" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/2.5" value="0.33uF"/>
+<part name="C3" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/2.5" value="33uF"/>
 <part name="SUPPLY21" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="BAU" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
 <part name="VOLTMETRE" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device=""/>
 <part name="SUPPLY22" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="R-5K5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1"/>
+<part name="R-5K6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -12765,6 +12767,14 @@ DIN A4, with small doc field</description>
 </instance>
 <instance part="SUPPLY22" gate="GND" x="17.78" y="149.86" smashed="yes">
 <attribute name="VALUE" x="15.875" y="146.685" size="1.778" layer="96"/>
+</instance>
+<instance part="R-5K5" gate="G$1" x="48.26" y="35.56" smashed="yes" rot="R270">
+<attribute name="NAME" x="49.7586" y="39.37" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="44.958" y="39.37" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R-5K6" gate="G$1" x="53.34" y="35.56" smashed="yes" rot="R270">
+<attribute name="NAME" x="54.8386" y="39.37" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="50.038" y="39.37" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -13093,11 +13103,6 @@ DIN A4, with small doc field</description>
 </net>
 <net name="5V" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="+5V"/>
-<wire x1="144.78" y1="165.1" x2="149.86" y2="165.1" width="0.1524" layer="91"/>
-<label x="149.86" y="165.1" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="CODEUR2" gate="J1" pin="3"/>
 <wire x1="55.88" y1="157.48" x2="60.96" y2="157.48" width="0.1524" layer="91"/>
 <label x="60.96" y="157.48" size="1.778" layer="95"/>
@@ -13154,6 +13159,16 @@ DIN A4, with small doc field</description>
 <wire x1="81.28" y1="45.72" x2="81.28" y2="40.64" width="0.1524" layer="91"/>
 <label x="81.28" y="40.64" size="1.778" layer="95" rot="R270"/>
 <pinref part="SERVO1" gate="J1" pin="2"/>
+</segment>
+<segment>
+<pinref part="R-5K5" gate="G$1" pin="2"/>
+<wire x1="48.26" y1="30.48" x2="48.26" y2="22.86" width="0.1524" layer="91"/>
+<label x="48.26" y="22.86" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="R-5K6" gate="G$1" pin="2"/>
+<wire x1="53.34" y1="30.48" x2="53.34" y2="22.86" width="0.1524" layer="91"/>
+<label x="53.34" y="22.86" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="ENC2-A" class="0">
@@ -13221,6 +13236,11 @@ DIN A4, with small doc field</description>
 <wire x1="20.32" y1="157.48" x2="20.32" y2="152.4" width="0.1524" layer="91"/>
 <label x="20.32" y="152.4" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="VIN"/>
+<wire x1="144.78" y1="172.72" x2="149.86" y2="172.72" width="0.1524" layer="91"/>
+<label x="149.86" y="172.72" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SDA" class="0">
 <segment>
@@ -13233,6 +13253,11 @@ DIN A4, with small doc field</description>
 <label x="63.5" y="66.04" size="1.778" layer="95"/>
 <pinref part="ESP32-C3-ZERO-2" gate="J1" pin="3"/>
 </segment>
+<segment>
+<pinref part="R-5K5" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="40.64" x2="48.26" y2="45.72" width="0.1524" layer="91"/>
+<label x="48.26" y="45.72" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SCL" class="0">
 <segment>
@@ -13244,6 +13269,11 @@ DIN A4, with small doc field</description>
 <wire x1="55.88" y1="63.5" x2="63.5" y2="63.5" width="0.1524" layer="91"/>
 <label x="63.5" y="63.5" size="1.778" layer="95"/>
 <pinref part="ESP32-C3-ZERO-2" gate="J1" pin="2"/>
+</segment>
+<segment>
+<pinref part="R-5K6" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="40.64" x2="53.34" y2="45.72" width="0.1524" layer="91"/>
+<label x="53.34" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TIRETTE" class="0">
@@ -13356,6 +13386,29 @@ DIN A4, with small doc field</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,79.3488,221.143,POLOLU-MP6550-1-2,,,,,"/>
+<approved hash="113,1,50.1912,218.277,POLOLU-MP6550-1-1,,,,,"/>
+<approved hash="113,1,79.3488,183.043,POLOLU-MP6550-2-2,,,,,"/>
+<approved hash="113,1,50.1912,180.177,POLOLU-MP6550-2-1,,,,,"/>
+<approved hash="113,1,52.6627,157.643,CODEUR2,,,,,"/>
+<approved hash="113,1,52.6627,139.863,CODEUR1,,,,,"/>
+<approved hash="113,1,120.813,234.357,USB-DEBUG,,,,,"/>
+<approved hash="113,1,90.066,131.976,FRAME1,,,,,"/>
+<approved hash="113,1,116.84,197.03,R-5K,,,,,"/>
+<approved hash="113,1,127.163,108.051,POLOLU-U3V40F12,,,,,"/>
+<approved hash="113,1,57.0579,72.5526,ESP32-C3-ZERO-2,,,,,"/>
+<approved hash="113,1,26.7621,69.6874,ESP32-C3-ZERO-1,,,,,"/>
+<approved hash="113,1,101.763,79.4173,I2C,,,,,"/>
+<approved hash="113,1,149.86,90.3503,R-5K1,,,,,"/>
+<approved hash="113,1,149.86,77.6503,R-5K2,,,,,"/>
+<approved hash="113,1,149.86,64.9503,R-5K3,,,,,"/>
+<approved hash="113,1,149.86,52.2503,R-5K4,,,,,"/>
+<approved hash="113,1,82.7126,48.9373,SERVO1,,,,,"/>
+<approved hash="113,1,100.493,48.9373,SERVO2,,,,,"/>
+<approved hash="113,1,49.3497,35.56,R-5K5,,,,,"/>
+<approved hash="113,1,54.4297,35.56,R-5K6,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
