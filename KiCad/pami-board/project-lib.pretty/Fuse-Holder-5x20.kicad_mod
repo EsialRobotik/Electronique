@@ -1,0 +1,121 @@
+(footprint "Fuse-Holder-5x20"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0.5 0)
+		(layer "F.Fab")
+		(uuid "aa6e0cd2-64a0-4695-b662-58721ffb7e81")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fuse-Holder-5x20"
+		(at 0 -0.5 0)
+		(layer "F.Fab")
+		(uuid "1108f1a3-ffb0-4ee7-a32b-f86d12076e0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3dc432f6-20c8-4ee6-b62f-69136ddc6ba1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "539e122e-fb3a-4e91-b73a-45e70854394d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -12.75 -4.75)
+		(end 12.75 -4.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "77e2b8f4-243f-4b8c-a044-2d82774e1259")
+	)
+	(fp_line
+		(start -12.75 4.75)
+		(end -12.75 -4.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ffb5b6d2-eaf2-47b6-b1f3-8a3a034f1bfa")
+	)
+	(fp_line
+		(start 12.75 -4.75)
+		(end 12.75 4.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "293bff15-7c3d-4959-a0c4-8665416b68fa")
+	)
+	(fp_line
+		(start 12.75 4.75)
+		(end -12.75 4.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e181f9d-04eb-4630-a455-5f88375c8201")
+	)
+	(pad "1" thru_hole circle
+		(at -11.25 0)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0fceaade-8068-4482-aaaa-4dc4c98a3a29")
+	)
+	(pad "2" thru_hole circle
+		(at 11.25 0)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "19baa0be-0a10-4c4f-a760-e36880e31042")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Fuses/0PTF0078P.step"
+		(offset
+			(xyz 0 0 6.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
