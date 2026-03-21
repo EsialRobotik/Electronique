@@ -1,0 +1,7 @@
+Comment,Designator,Footprint,LCSC,Quantity
+SRF03,"J1,J10,J11,J12,J13,J2,J7,J9",JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,C144395,8
+Couleur,"J3,J4,J8",JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,C158012,3
+"Connector, USB-TYPE-C-16P",J14,TYPE-C-SMD_HX-TYPE-C-16PIN,C165948,1
+Sparkfun-BOB-12009-1,"J15,J16,J17,J18",PinHeader_1x06_P2.54mm_Vertical,C18078129,4
+Nucleo-G431KB,"J5,J6",PinHeader_1x15_P2.54mm_Vertical,C18078136,2
+10kΩ,"R7,R8",R_0603,C25804,2

@@ -466,7 +466,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "pami-board.kicad_pro",
+    "filename": "iasserv.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -505,7 +505,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "pami-board.step",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -626,7 +626,7 @@
   },
   "sheets": [
     [
-      "f8045b66-94f2-4eab-ab54-d83f635ddcbe",
+      "b6a8ab35-b073-41cd-98ee-7ae34b4cf8e7",
       "Root"
     ]
   ],
