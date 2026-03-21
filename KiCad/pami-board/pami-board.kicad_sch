@@ -6667,12 +6667,6 @@
 		(uuid "a38afa84-4856-4d57-8863-8691de59422c")
 	)
 	(junction
-		(at 21.59 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8c50afc-1cce-4d2c-9c0b-549b7187191a")
-	)
-	(junction
 		(at 135.89 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6992,6 +6986,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 41.91) (xy 224.79 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59147990-0674-4d5b-9a70-3ee5bebf6199")
+	)
+	(wire
+		(pts
 			(xy 81.28 110.49) (xy 83.82 110.49)
 		)
 		(stroke
@@ -7302,6 +7306,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 171.45) (xy 39.37 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9bcf92d-1c5e-49d3-ae22-c4d08ea253b5")
+	)
+	(wire
+		(pts
 			(xy 210.82 95.25) (xy 229.87 95.25)
 		)
 		(stroke
@@ -7359,6 +7373,16 @@
 			(type default)
 		)
 		(uuid "bd7325a3-e52d-4dec-b92a-9472d8d421fa")
+	)
+	(wire
+		(pts
+			(xy 219.71 41.91) (xy 219.71 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c894e038-b9f7-421e-bf17-0f1633206ac4")
 	)
 	(wire
 		(pts
@@ -7439,16 +7463,6 @@
 			(type default)
 		)
 		(uuid "d7f147c6-b168-4e8f-a462-91db43592d61")
-	)
-	(wire
-		(pts
-			(xy 21.59 171.45) (xy 21.59 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dec0c9a1-953d-4f19-bea7-46373b19520e")
 	)
 	(wire
 		(pts
@@ -7629,6 +7643,28 @@
 			(type default)
 		)
 		(uuid "ffe3a75c-bd71-416a-aaea-9a9ec15b31eb")
+	)
+	(global_label "USB-D+"
+		(shape input)
+		(at 219.71 44.45 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "05822600-3065-4a22-84b8-1b7770af56d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 55.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "ENC2-A"
 		(shape input)
@@ -8105,6 +8141,28 @@
 		(uuid "7418ab6d-7b17-4ea0-87d0-fd054c1d0457")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 214.6082 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-D-"
+		(shape input)
+		(at 224.79 44.45 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "76d4ecac-4631-4528-a970-63109afed022")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.79 55.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11986,7 +12044,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 21.59 176.53 180)
+		(at 39.37 175.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11995,7 +12053,7 @@
 		(fields_autoplaced yes)
 		(uuid "758c802d-e950-49b2-9c3e-7c84ca356ed0")
 		(property "Reference" "#PWR012"
-			(at 21.59 172.72 0)
+			(at 39.37 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12004,7 +12062,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 21.59 181.61 0)
+			(at 39.37 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12012,7 +12070,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 176.53 0)
+			(at 39.37 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12021,7 +12079,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 176.53 0)
+			(at 39.37 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12030,7 +12088,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 21.59 176.53 0)
+			(at 39.37 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
