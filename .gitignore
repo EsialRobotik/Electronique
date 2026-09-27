@@ -46,3 +46,5 @@ eagle.epf
 CAMOutputs/
 
 *.zip
+
+*-backups/
