@@ -2462,7 +2462,7 @@
 		(path "/7b828bc0-48fb-49f9-ac95-8401ca2f428e")
 		(sheetname "/")
 		(sheetfile "iasserv.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 3.92 -1.38)
 			(end 3.92 49.64)
@@ -6170,7 +6170,7 @@
 		(path "/5746a50c-35fb-4ddc-bd6f-3cc8e9a0ce69")
 		(sheetname "/")
 		(sheetfile "iasserv.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -12.7 25.4)
 			(end 12.7 25.4)
@@ -7246,7 +7246,7 @@
 			(net 43 "unconnected-(J14-SHIELD-PadS1)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "fb1987eb-5cb7-4dc9-b83b-6097f169ee4f")
+			(uuid "0f007fbc-8c78-4a4e-a5da-a1598e55d370")
 		)
 		(pad "S1" thru_hole circle
 			(at -2 1 180)
@@ -7258,7 +7258,7 @@
 			(pinfunction "SHIELD")
 			(pintype "passive")
 			(thermal_bridge_angle 90)
-			(uuid "fb1987eb-5cb7-4dc9-b83b-6097f169ee4f")
+			(uuid "ad3172e7-a65e-45ca-82dc-a1ad4489256f")
 		)
 		(pad "S1" thru_hole circle
 			(at -2 3 180)
@@ -7270,7 +7270,7 @@
 			(pinfunction "SHIELD")
 			(pintype "passive")
 			(thermal_bridge_angle 90)
-			(uuid "fb1987eb-5cb7-4dc9-b83b-6097f169ee4f")
+			(uuid "a8e5c17b-2319-4d59-be03-8458ef9a60ff")
 		)
 		(pad "S1" smd roundrect
 			(at 0 2 180)
@@ -7281,7 +7281,7 @@
 			(pinfunction "SHIELD")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "fb1987eb-5cb7-4dc9-b83b-6097f169ee4f")
+			(uuid "c651723d-469a-43d8-91bd-730f2ef90f97")
 		)
 		(pad "S1" thru_hole circle
 			(at 2 1 180)
@@ -7293,7 +7293,7 @@
 			(pinfunction "SHIELD")
 			(pintype "passive")
 			(thermal_bridge_angle 90)
-			(uuid "fb1987eb-5cb7-4dc9-b83b-6097f169ee4f")
+			(uuid "8c607f91-77ed-4749-aecc-979053c06125")
 		)
 		(pad "S1" thru_hole circle
 			(at 2 3 180)
@@ -7305,7 +7305,7 @@
 			(pinfunction "SHIELD")
 			(pintype "passive")
 			(thermal_bridge_angle 90)
-			(uuid "fb1987eb-5cb7-4dc9-b83b-6097f169ee4f")
+			(uuid "f607ac03-515b-4b32-b105-9901fbc92104")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.33 -1.82 180)
@@ -7316,7 +7316,7 @@
 			(net 43 "unconnected-(J14-SHIELD-PadS1)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "fb1987eb-5cb7-4dc9-b83b-6097f169ee4f")
+			(uuid "af457f4c-4f71-4b01-9a3d-c1ea634f62cc")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.33 2.38 180)
@@ -7327,7 +7327,7 @@
 			(net 43 "unconnected-(J14-SHIELD-PadS1)")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "fb1987eb-5cb7-4dc9-b83b-6097f169ee4f")
+			(uuid "582f05b3-95a9-49eb-ab54-bfe04944acc1")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/TYPE-C-SMD_HX-TYPE-C-16PIN.step"

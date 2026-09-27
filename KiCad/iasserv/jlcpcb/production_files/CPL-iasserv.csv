@@ -1,21 +1,21 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-J1,SRF03,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,56.194,-64.516,180.0,top
-J10,SRF02,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,69.656,-41.148,180.0,top
-J11,SRF01,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,55.82,-41.148,180.0,top
-J12,I2C,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,38.608,-65.726,-90.0,top
+J1,SRF03,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,55.82,-41.148,180.0,top
+J10,SRF02,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,70.164,-64.516,180.0,top
+J11,SRF01,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,56.328,-64.516,180.0,top
+J12,I2C,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,38.354,-100.136,-90.0,top
 J13,MD22,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,74.422,-52.384,-90.0,top
 J14,"Connector, USB-TYPE-C-16P",TYPE-C-SMD_HX-TYPE-C-16PIN,87.648,-39.22,180.0,top
-J15,Sparkfun-BOB-12009-1,PinHeader_1x06_P2.54mm_Vertical,61.468,-56.388,90.0,top
-J16,Sparkfun-BOB-12009-1,PinHeader_1x06_P2.54mm_Vertical,61.468,-46.228,90.0,top
-J17,Sparkfun-BOB-12009-2,PinHeader_1x06_P2.54mm_Vertical,61.722,-69.596,90.0,top
-J18,Sparkfun-BOB-12009-2,PinHeader_1x06_P2.54mm_Vertical,61.722,-79.756,90.0,top
-J2,SRF04,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,70.164,-64.516,180.0,top
-J3,Couleur,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,38.608,-85.618,-90.0,top
-J4,Tirette,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,38.608,-76.982,-90.0,top
+J15,Sparkfun-BOB-12009-1,PinHeader_1x06_P2.54mm_Vertical,61.976,-79.756,90.0,top
+J16,Sparkfun-BOB-12009-1,PinHeader_1x06_P2.54mm_Vertical,61.976,-69.596,90.0,top
+J17,Sparkfun-BOB-12009-2,PinHeader_1x06_P2.54mm_Vertical,61.348,-46.228,90.0,top
+J18,Sparkfun-BOB-12009-2,PinHeader_1x06_P2.54mm_Vertical,61.348,-56.388,90.0,top
+J2,SRF04,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,69.79,-41.148,180.0,top
+J3,Couleur,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,38.354,-88.88,-90.0,top
+J4,Tirette,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,38.608,-78.466,-90.0,top
 J5,Nucleo-G431KB,PinHeader_1x15_P2.54mm_Vertical,80.01,-56.642,0.0,top
 J6,Nucleo-G431KB,PinHeader_1x15_P2.54mm_Vertical,95.25,-56.642,0.0,top
-J7,Codeur1,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,101.078,-69.552,90.0,top
-J8,Batterie,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,87.904,-80.518,180.0,top
-J9,Codeur2,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,101.078,-55.328,90.0,top
-R7,10kΩ,R_0603,48.768,-78.936,90.0,top
-R8,10kΩ,R_0603,48.768,-75.888,90.0,top
+J7,Codeur1,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,101.078,-62.17,90.0,top
+J8,Batterie,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,101.092,-73.64,90.0,top
+J9,Codeur2,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,101.092,-48.2,90.0,top
+R7,10kΩ,R_0603,37.592,-83.566,180.0,top
+R8,10kΩ,R_0603,37.592,-73.406,180.0,top
