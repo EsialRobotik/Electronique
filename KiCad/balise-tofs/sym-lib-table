@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "2026-09-24_20-23-07")(type "KiCad")(uri "/home/gag/Bureau/EsialRobotik/Electronique/KiCad/ul_AP63203WU-7/KiCADv6/2026-09-24_20-23-07.kicad_sym")(options "")(descr ""))
+  (lib (name "NUCLEO-G431KB")(type "KiCad")(uri "/home/gag/Bureau/EsialRobotik/Electronique/KiCad/NUCLEO-G431KB/NUCLEO-G431KB.kicad_sym")(options "")(descr ""))
+  (lib (name "2026-09-24_21-38-25")(type "KiCad")(uri "/home/gag/Bureau/EsialRobotik/Electronique/KiCad/ul_PCA9535CPW/KiCADv6/2026-09-24_21-38-25.kicad_sym")(options "")(descr ""))
+  (lib (name "2026-09-27_16-47-32")(type "KiCad")(uri "/home/gag/Bureau/EsialRobotik/Electronique/KiCad/ul_AP63205WU-7/KiCADv6/2026-09-27_16-47-32.kicad_sym")(options "")(descr ""))
+)
