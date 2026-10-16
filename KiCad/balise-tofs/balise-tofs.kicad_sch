@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "10d9180b-cace-42d6-9b98-3b413b122618")
 	(paper "A3")
+	(title_block
+		(title "Balise de détection ToF")
+		(date "2026-10-16")
+		(rev "0.2")
+		(company "ESIALROBOTIK")
+	)
 	(lib_symbols
 		(symbol "2026-09-24_20-23-07:AP63203WU-7"
 			(pin_names
@@ -8736,6 +8742,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 118.11) (xy 90.17 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa556d42-ba04-4fe9-bf67-a7c08622f74c")
+	)
+	(wire
+		(pts
 			(xy 375.92 146.05) (xy 375.92 153.67)
 		)
 		(stroke
@@ -9439,6 +9455,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 93.98 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40280993-0022-4b3e-8700-d4ad408f605d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.2633 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -14076,7 +14116,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3uH"
+		(property "Value" "3.9uH"
 			(at 265.43 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20055,7 +20095,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Diodes:TVS-Uni,SMBJ24A")
-		(at 74.93 45.72 0)
+		(at 74.93 45.72 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20066,29 +20106,29 @@
 		(fields_autoplaced yes)
 		(uuid "bd9b8986-ee86-4b6b-90d6-5a7e3499c298")
 		(property "Reference" "D2"
-			(at 78.74 44.7674 0)
+			(at 78.74 44.1324 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "SMBJ22A"
-			(at 78.74 47.3075 0)
+			(at 78.74 46.6725 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.8 0.8)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:D_SMB"
-			(at 73.152 45.72 90)
+			(at 76.708 45.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
